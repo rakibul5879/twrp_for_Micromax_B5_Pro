@@ -1,0 +1,9 @@
+{
+  "name": "Ubuntu Older Version",
+  "dockerFile": "Dockerfile",
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  }
+}
