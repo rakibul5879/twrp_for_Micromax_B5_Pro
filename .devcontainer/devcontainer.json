@@ -1,9 +1,7 @@
 {
-  "name": "Ubuntu Older Version",
-  "dockerFile": "Dockerfile",
-  "customizations": {
-    "vscode": {
-      "extensions": []
-    }
-  }
+  "name": "Ubuntu 22.04",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "vscode"
 }
