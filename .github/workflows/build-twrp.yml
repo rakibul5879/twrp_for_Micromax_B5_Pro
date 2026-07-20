@@ -1,0 +1,74 @@
+name: Build TWRP (workflow_dispatch)
+
+on:
+  workflow_dispatch:
+    inputs:
+      manifest_url:
+        description: 'TWRP manifest URL (required)'
+        required: true
+        default: ''
+      manifest_branch:
+        description: 'Manifest branch (e.g. twrp-3.2 or twrp-3.6)'
+        required: false
+        default: 'twrp-3.2'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout repository (device tree)
+        uses: actions/checkout@v4
+
+      - name: Install system packages and repo
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y openjdk-11-jdk-core git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses6 lib32z1 libssl-dev lz4 bc python3 rsync
+          mkdir -p ~/bin && curl -sSLo ~/bin/repo https://storage.googleapis.com/git-repo-downloads/repo && chmod a+x ~/bin/repo
+          echo "export PATH=~/bin:$PATH" >> $GITHUB_ENV
+
+      - name: Show disk and memory
+        run: df -h && free -h && nproc
+
+      - name: Prepare build directory
+        run: |
+          export WORKDIR=$GITHUB_WORKSPACE/twrp_src
+          rm -rf "$WORKDIR"
+          mkdir -p "$WORKDIR"
+          ls -la $GITHUB_WORKSPACE
+
+      - name: Initialize and sync TWRP sources
+        env:
+          MANIFEST_URL: ${{ github.event.inputs.manifest_url }}
+          MANIFEST_BRANCH: ${{ github.event.inputs.manifest_branch }}
+        run: |
+          if [ -z "$MANIFEST_URL" ]; then
+            echo "manifest_url input is required. Provide a TWRP manifest URL when dispatching the workflow." >&2
+            exit 1
+          fi
+          export PATH=~/bin:$PATH
+          cd $GITHUB_WORKSPACE/twrp_src
+          repo init -u "$MANIFEST_URL" -b "$MANIFEST_BRANCH" || repo init -u "$MANIFEST_URL" || true
+          repo sync --force-sync -c -j$(nproc) || (sleep 4 && repo sync --force-sync -c -j2)
+
+      - name: Copy device tree into source
+        run: |
+          mkdir -p $GITHUB_WORKSPACE/twrp_src/device/micromax
+          cp -R $GITHUB_WORKSPACE/device/micromax/B5_Pro $GITHUB_WORKSPACE/twrp_src/device/micromax/ || true
+
+      - name: Run build script
+        env:
+          GITHUB_WORKSPACE: ${{ github.workspace }}
+        run: |
+          chmod +x $GITHUB_WORKSPACE/scripts/build_twrp.sh
+          $GITHUB_WORKSPACE/scripts/build_twrp.sh
+
+      - name: Upload recovery image artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: twrp-recovery-artifacts
+          path: |
+            $GITHUB_WORKSPACE/twrp_src/out/target/product/*/recovery.img
+            $GITHUB_WORKSPACE/twrp_src/out/target/product/*/twrp.img
+            $GITHUB_WORKSPACE/twrp_src/out/target/product/*/recovery-*.img
