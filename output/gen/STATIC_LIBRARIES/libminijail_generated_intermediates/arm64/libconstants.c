@@ -494,12 +494,12 @@ const struct constant_entry constant_table[] = {
 #ifdef ESRCH
   { "ESRCH", (unsigned long) ESRCH },
 #endif  // ESRCH
-#ifdef ESR_MAGIC
-  { "ESR_MAGIC", (unsigned long) ESR_MAGIC },
-#endif  // ESR_MAGIC
 #ifdef ESRMNT
   { "ESRMNT", (unsigned long) ESRMNT },
 #endif  // ESRMNT
+#ifdef ESR_MAGIC
+  { "ESR_MAGIC", (unsigned long) ESR_MAGIC },
+#endif  // ESR_MAGIC
 #ifdef ESTALE
   { "ESTALE", (unsigned long) ESTALE },
 #endif  // ESTALE
@@ -563,6 +563,9 @@ const struct constant_entry constant_table[] = {
 #ifdef FD_CLOEXEC
   { "FD_CLOEXEC", (unsigned long) FD_CLOEXEC },
 #endif  // FD_CLOEXEC
+#ifdef FPSIMD_MAGIC
+  { "FPSIMD_MAGIC", (unsigned long) FPSIMD_MAGIC },
+#endif  // FPSIMD_MAGIC
 #ifdef F_DUPFD
   { "F_DUPFD", (unsigned long) F_DUPFD },
 #endif  // F_DUPFD
@@ -614,9 +617,6 @@ const struct constant_entry constant_table[] = {
 #ifdef F_OWNER_TID
   { "F_OWNER_TID", (unsigned long) F_OWNER_TID },
 #endif  // F_OWNER_TID
-#ifdef FPSIMD_MAGIC
-  { "FPSIMD_MAGIC", (unsigned long) FPSIMD_MAGIC },
-#endif  // FPSIMD_MAGIC
 #ifdef F_RDLCK
   { "F_RDLCK", (unsigned long) F_RDLCK },
 #endif  // F_RDLCK
@@ -644,12 +644,12 @@ const struct constant_entry constant_table[] = {
 #ifdef F_SETLK64
   { "F_SETLK64", (unsigned long) F_SETLK64 },
 #endif  // F_SETLK64
-#ifdef F_SETLKW64
-  { "F_SETLKW64", (unsigned long) F_SETLKW64 },
-#endif  // F_SETLKW64
 #ifdef F_SETLKW
   { "F_SETLKW", (unsigned long) F_SETLKW },
 #endif  // F_SETLKW
+#ifdef F_SETLKW64
+  { "F_SETLKW64", (unsigned long) F_SETLKW64 },
+#endif  // F_SETLKW64
 #ifdef F_SETOWN
   { "F_SETOWN", (unsigned long) F_SETOWN },
 #endif  // F_SETOWN
@@ -671,6 +671,18 @@ const struct constant_entry constant_table[] = {
 #ifdef GID_MAX
   { "GID_MAX", (unsigned long) GID_MAX },
 #endif  // GID_MAX
+#ifdef INTMAX_MAX
+  { "INTMAX_MAX", (unsigned long) INTMAX_MAX },
+#endif  // INTMAX_MAX
+#ifdef INTMAX_MIN
+  { "INTMAX_MIN", (unsigned long) INTMAX_MIN },
+#endif  // INTMAX_MIN
+#ifdef INTPTR_MAX
+  { "INTPTR_MAX", (unsigned long) INTPTR_MAX },
+#endif  // INTPTR_MAX
+#ifdef INTPTR_MIN
+  { "INTPTR_MIN", (unsigned long) INTPTR_MIN },
+#endif  // INTPTR_MIN
 #ifdef INT_FAST16_MAX
   { "INT_FAST16_MAX", (unsigned long) INT_FAST16_MAX },
 #endif  // INT_FAST16_MAX
@@ -722,18 +734,6 @@ const struct constant_entry constant_table[] = {
 #ifdef INT_MAX
   { "INT_MAX", (unsigned long) INT_MAX },
 #endif  // INT_MAX
-#ifdef INTMAX_MAX
-  { "INTMAX_MAX", (unsigned long) INTMAX_MAX },
-#endif  // INTMAX_MAX
-#ifdef INTMAX_MIN
-  { "INTMAX_MIN", (unsigned long) INTMAX_MIN },
-#endif  // INTMAX_MIN
-#ifdef INTPTR_MAX
-  { "INTPTR_MAX", (unsigned long) INTPTR_MAX },
-#endif  // INTPTR_MAX
-#ifdef INTPTR_MIN
-  { "INTPTR_MIN", (unsigned long) INTPTR_MIN },
-#endif  // INTPTR_MIN
 #ifdef IOV_MAX
   { "IOV_MAX", (unsigned long) IOV_MAX },
 #endif  // IOV_MAX
@@ -941,6 +941,12 @@ const struct constant_entry constant_table[] = {
 #ifdef POSIX_FADV_WILLNEED
   { "POSIX_FADV_WILLNEED", (unsigned long) POSIX_FADV_WILLNEED },
 #endif  // POSIX_FADV_WILLNEED
+#ifdef PR_CAPBSET_DROP
+  { "PR_CAPBSET_DROP", (unsigned long) PR_CAPBSET_DROP },
+#endif  // PR_CAPBSET_DROP
+#ifdef PR_CAPBSET_READ
+  { "PR_CAPBSET_READ", (unsigned long) PR_CAPBSET_READ },
+#endif  // PR_CAPBSET_READ
 #ifdef PR_CAP_AMBIENT
   { "PR_CAP_AMBIENT", (unsigned long) PR_CAP_AMBIENT },
 #endif  // PR_CAP_AMBIENT
@@ -956,12 +962,6 @@ const struct constant_entry constant_table[] = {
 #ifdef PR_CAP_AMBIENT_RAISE
   { "PR_CAP_AMBIENT_RAISE", (unsigned long) PR_CAP_AMBIENT_RAISE },
 #endif  // PR_CAP_AMBIENT_RAISE
-#ifdef PR_CAPBSET_DROP
-  { "PR_CAPBSET_DROP", (unsigned long) PR_CAPBSET_DROP },
-#endif  // PR_CAPBSET_DROP
-#ifdef PR_CAPBSET_READ
-  { "PR_CAPBSET_READ", (unsigned long) PR_CAPBSET_READ },
-#endif  // PR_CAPBSET_READ
 #ifdef PR_ENDIAN_BIG
   { "PR_ENDIAN_BIG", (unsigned long) PR_ENDIAN_BIG },
 #endif  // PR_ENDIAN_BIG
@@ -1298,30 +1298,6 @@ const struct constant_entry constant_table[] = {
 #ifdef SHRT_MAX
   { "SHRT_MAX", (unsigned long) SHRT_MAX },
 #endif  // SHRT_MAX
-#ifdef S_IFBLK
-  { "S_IFBLK", (unsigned long) S_IFBLK },
-#endif  // S_IFBLK
-#ifdef S_IFCHR
-  { "S_IFCHR", (unsigned long) S_IFCHR },
-#endif  // S_IFCHR
-#ifdef S_IFDIR
-  { "S_IFDIR", (unsigned long) S_IFDIR },
-#endif  // S_IFDIR
-#ifdef S_IFIFO
-  { "S_IFIFO", (unsigned long) S_IFIFO },
-#endif  // S_IFIFO
-#ifdef S_IFLNK
-  { "S_IFLNK", (unsigned long) S_IFLNK },
-#endif  // S_IFLNK
-#ifdef S_IFMT
-  { "S_IFMT", (unsigned long) S_IFMT },
-#endif  // S_IFMT
-#ifdef S_IFREG
-  { "S_IFREG", (unsigned long) S_IFREG },
-#endif  // S_IFREG
-#ifdef S_IFSOCK
-  { "S_IFSOCK", (unsigned long) S_IFSOCK },
-#endif  // S_IFSOCK
 #ifdef SIGABRT
   { "SIGABRT", (unsigned long) SIGABRT },
 #endif  // SIGABRT
@@ -1442,12 +1418,78 @@ const struct constant_entry constant_table[] = {
 #ifdef SIGXFSZ
   { "SIGXFSZ", (unsigned long) SIGXFSZ },
 #endif  // SIGXFSZ
+#ifdef SIZE_MAX
+  { "SIZE_MAX", (unsigned long) SIZE_MAX },
+#endif  // SIZE_MAX
+#ifdef SIZE_T_MAX
+  { "SIZE_T_MAX", (unsigned long) SIZE_T_MAX },
+#endif  // SIZE_T_MAX
 #ifdef SI_KERNEL
   { "SI_KERNEL", (unsigned long) SI_KERNEL },
 #endif  // SI_KERNEL
 #ifdef SI_MAX_SIZE
   { "SI_MAX_SIZE", (unsigned long) SI_MAX_SIZE },
 #endif  // SI_MAX_SIZE
+#ifdef SI_USER
+  { "SI_USER", (unsigned long) SI_USER },
+#endif  // SI_USER
+#ifdef SPLICE_F_GIFT
+  { "SPLICE_F_GIFT", (unsigned long) SPLICE_F_GIFT },
+#endif  // SPLICE_F_GIFT
+#ifdef SPLICE_F_MORE
+  { "SPLICE_F_MORE", (unsigned long) SPLICE_F_MORE },
+#endif  // SPLICE_F_MORE
+#ifdef SPLICE_F_MOVE
+  { "SPLICE_F_MOVE", (unsigned long) SPLICE_F_MOVE },
+#endif  // SPLICE_F_MOVE
+#ifdef SPLICE_F_NONBLOCK
+  { "SPLICE_F_NONBLOCK", (unsigned long) SPLICE_F_NONBLOCK },
+#endif  // SPLICE_F_NONBLOCK
+#ifdef SSIZE_MAX
+  { "SSIZE_MAX", (unsigned long) SSIZE_MAX },
+#endif  // SSIZE_MAX
+#ifdef SS_DISABLE
+  { "SS_DISABLE", (unsigned long) SS_DISABLE },
+#endif  // SS_DISABLE
+#ifdef SS_FLAG_BITS
+  { "SS_FLAG_BITS", (unsigned long) SS_FLAG_BITS },
+#endif  // SS_FLAG_BITS
+#ifdef SS_ONSTACK
+  { "SS_ONSTACK", (unsigned long) SS_ONSTACK },
+#endif  // SS_ONSTACK
+#ifdef SYNC_FILE_RANGE_WAIT_AFTER
+  { "SYNC_FILE_RANGE_WAIT_AFTER", (unsigned long) SYNC_FILE_RANGE_WAIT_AFTER },
+#endif  // SYNC_FILE_RANGE_WAIT_AFTER
+#ifdef SYNC_FILE_RANGE_WAIT_BEFORE
+  { "SYNC_FILE_RANGE_WAIT_BEFORE", (unsigned long) SYNC_FILE_RANGE_WAIT_BEFORE },
+#endif  // SYNC_FILE_RANGE_WAIT_BEFORE
+#ifdef SYNC_FILE_RANGE_WRITE
+  { "SYNC_FILE_RANGE_WRITE", (unsigned long) SYNC_FILE_RANGE_WRITE },
+#endif  // SYNC_FILE_RANGE_WRITE
+#ifdef S_IFBLK
+  { "S_IFBLK", (unsigned long) S_IFBLK },
+#endif  // S_IFBLK
+#ifdef S_IFCHR
+  { "S_IFCHR", (unsigned long) S_IFCHR },
+#endif  // S_IFCHR
+#ifdef S_IFDIR
+  { "S_IFDIR", (unsigned long) S_IFDIR },
+#endif  // S_IFDIR
+#ifdef S_IFIFO
+  { "S_IFIFO", (unsigned long) S_IFIFO },
+#endif  // S_IFIFO
+#ifdef S_IFLNK
+  { "S_IFLNK", (unsigned long) S_IFLNK },
+#endif  // S_IFLNK
+#ifdef S_IFMT
+  { "S_IFMT", (unsigned long) S_IFMT },
+#endif  // S_IFMT
+#ifdef S_IFREG
+  { "S_IFREG", (unsigned long) S_IFREG },
+#endif  // S_IFREG
+#ifdef S_IFSOCK
+  { "S_IFSOCK", (unsigned long) S_IFSOCK },
+#endif  // S_IFSOCK
 #ifdef S_IRGRP
   { "S_IRGRP", (unsigned long) S_IRGRP },
 #endif  // S_IRGRP
@@ -1475,9 +1517,6 @@ const struct constant_entry constant_table[] = {
 #ifdef S_ISVTX
   { "S_ISVTX", (unsigned long) S_ISVTX },
 #endif  // S_ISVTX
-#ifdef SI_USER
-  { "SI_USER", (unsigned long) SI_USER },
-#endif  // SI_USER
 #ifdef S_IWGRP
   { "S_IWGRP", (unsigned long) S_IWGRP },
 #endif  // S_IWGRP
@@ -1496,45 +1535,6 @@ const struct constant_entry constant_table[] = {
 #ifdef S_IXUSR
   { "S_IXUSR", (unsigned long) S_IXUSR },
 #endif  // S_IXUSR
-#ifdef SIZE_MAX
-  { "SIZE_MAX", (unsigned long) SIZE_MAX },
-#endif  // SIZE_MAX
-#ifdef SIZE_T_MAX
-  { "SIZE_T_MAX", (unsigned long) SIZE_T_MAX },
-#endif  // SIZE_T_MAX
-#ifdef SPLICE_F_GIFT
-  { "SPLICE_F_GIFT", (unsigned long) SPLICE_F_GIFT },
-#endif  // SPLICE_F_GIFT
-#ifdef SPLICE_F_MORE
-  { "SPLICE_F_MORE", (unsigned long) SPLICE_F_MORE },
-#endif  // SPLICE_F_MORE
-#ifdef SPLICE_F_MOVE
-  { "SPLICE_F_MOVE", (unsigned long) SPLICE_F_MOVE },
-#endif  // SPLICE_F_MOVE
-#ifdef SPLICE_F_NONBLOCK
-  { "SPLICE_F_NONBLOCK", (unsigned long) SPLICE_F_NONBLOCK },
-#endif  // SPLICE_F_NONBLOCK
-#ifdef SS_DISABLE
-  { "SS_DISABLE", (unsigned long) SS_DISABLE },
-#endif  // SS_DISABLE
-#ifdef SS_FLAG_BITS
-  { "SS_FLAG_BITS", (unsigned long) SS_FLAG_BITS },
-#endif  // SS_FLAG_BITS
-#ifdef SSIZE_MAX
-  { "SSIZE_MAX", (unsigned long) SSIZE_MAX },
-#endif  // SSIZE_MAX
-#ifdef SS_ONSTACK
-  { "SS_ONSTACK", (unsigned long) SS_ONSTACK },
-#endif  // SS_ONSTACK
-#ifdef SYNC_FILE_RANGE_WAIT_AFTER
-  { "SYNC_FILE_RANGE_WAIT_AFTER", (unsigned long) SYNC_FILE_RANGE_WAIT_AFTER },
-#endif  // SYNC_FILE_RANGE_WAIT_AFTER
-#ifdef SYNC_FILE_RANGE_WAIT_BEFORE
-  { "SYNC_FILE_RANGE_WAIT_BEFORE", (unsigned long) SYNC_FILE_RANGE_WAIT_BEFORE },
-#endif  // SYNC_FILE_RANGE_WAIT_BEFORE
-#ifdef SYNC_FILE_RANGE_WRITE
-  { "SYNC_FILE_RANGE_WRITE", (unsigned long) SYNC_FILE_RANGE_WRITE },
-#endif  // SYNC_FILE_RANGE_WRITE
 #ifdef TMP_MAX
   { "TMP_MAX", (unsigned long) TMP_MAX },
 #endif  // TMP_MAX
@@ -1544,6 +1544,12 @@ const struct constant_entry constant_table[] = {
 #ifdef UID_MAX
   { "UID_MAX", (unsigned long) UID_MAX },
 #endif  // UID_MAX
+#ifdef UINTMAX_MAX
+  { "UINTMAX_MAX", (unsigned long) UINTMAX_MAX },
+#endif  // UINTMAX_MAX
+#ifdef UINTPTR_MAX
+  { "UINTPTR_MAX", (unsigned long) UINTPTR_MAX },
+#endif  // UINTPTR_MAX
 #ifdef UINT_FAST16_MAX
   { "UINT_FAST16_MAX", (unsigned long) UINT_FAST16_MAX },
 #endif  // UINT_FAST16_MAX
@@ -1571,12 +1577,6 @@ const struct constant_entry constant_table[] = {
 #ifdef UINT_MAX
   { "UINT_MAX", (unsigned long) UINT_MAX },
 #endif  // UINT_MAX
-#ifdef UINTMAX_MAX
-  { "UINTMAX_MAX", (unsigned long) UINTMAX_MAX },
-#endif  // UINTMAX_MAX
-#ifdef UINTPTR_MAX
-  { "UINTPTR_MAX", (unsigned long) UINTPTR_MAX },
-#endif  // UINTPTR_MAX
 #ifdef UIO_FASTIOV
   { "UIO_FASTIOV", (unsigned long) UIO_FASTIOV },
 #endif  // UIO_FASTIOV
