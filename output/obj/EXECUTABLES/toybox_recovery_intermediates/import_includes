@@ -1,0 +1,10 @@
+ -Isystem/core/liblog/include
+ -Isystem/core/libcutils/include
+ -Iexternal/selinux/libselinux/include
+ -Iexternal/zlib
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ 
+ 
+ 
+ -Iexternal/boringssl/src/include -Iexternal/boringssl/src/include
+ 

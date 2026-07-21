@@ -1,0 +1,6 @@
+__atexit_handler_wrapper
+__on_dlclose
+android_pubkey_decode
+android_pubkey_encode
+atexit
+pthread_atfork

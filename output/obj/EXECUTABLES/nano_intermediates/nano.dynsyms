@@ -1,0 +1,4 @@
+__bss_start
+_edata
+_end
+main

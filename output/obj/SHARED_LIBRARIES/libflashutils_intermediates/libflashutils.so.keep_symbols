@@ -1,0 +1,5 @@
+__atexit_handler_wrapper
+__on_dlclose
+atexit
+detect_partition
+pthread_atfork

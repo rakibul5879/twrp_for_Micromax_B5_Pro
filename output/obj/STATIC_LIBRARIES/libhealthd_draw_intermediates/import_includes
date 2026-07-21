@@ -1,0 +1,10 @@
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ 
+ 
+ 
+-I system/core/healthd/minui/include
+ -Isystem/core/adf/libadf/include
+-I external/libdrm -I external/libdrm/include/drm -I external/libdrm
+ -Isystem/core/libsync/include
+ -Isystem/core/base/include
+ 

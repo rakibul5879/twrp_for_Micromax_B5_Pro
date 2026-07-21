@@ -1,0 +1,10 @@
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ 
+ 
+ 
+ -Iexternal/libpng
+ -Isystem/core/base/include
+ 
+ -Isystem/core/adf/libadf/include
+-I external/libdrm -I external/libdrm/include/drm -I external/libdrm
+ -Isystem/core/libsync/include

@@ -1,0 +1,6 @@
+__atexit_handler_wrapper
+__on_dlclose
+atexit
+default_com_err_proc
+init_debug
+pthread_atfork

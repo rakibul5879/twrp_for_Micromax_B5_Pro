@@ -1,0 +1,17 @@
+LIBC_O
+_ZSt7nothrow
+_ZdaPv
+_ZdaPvRKSt9nothrow_t
+_ZdlPv
+_ZdlPvRKSt9nothrow_t
+_Znam
+_ZnamRKSt9nothrow_t
+_Znwm
+_ZnwmRKSt9nothrow_t
+__bss_start
+__cxa_guard_abort
+__cxa_guard_acquire
+__cxa_guard_release
+__cxa_pure_virtual
+_edata
+_end

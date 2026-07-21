@@ -1,0 +1,8 @@
+_ZL11out_vformatI18BufferOutputStreamEvRT_PKcSt9__va_list
+__atexit_handler_wrapper
+__on_dlclose
+async_safe_fatal_no_abort
+async_safe_fatal_va_list
+async_safe_write_log
+atexit
+pthread_atfork

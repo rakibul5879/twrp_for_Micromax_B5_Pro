@@ -1,0 +1,30 @@
+ 
+ 
+ 
+ -Iexternal/libcap/libcap/include
+ -Ibootable/recovery/bootloader_message/include
+ -Isystem/core/fs_mgr/include -Isystem/core/logwrapper/include -Isystem/core/fs_mgr/include_fstab -Isystem/core/fs_mgr/include_fstab
+ -Isystem/extras/libfec/include -Isystem/core/libcrypto_utils/include
+ -Iexternal/fec
+ -Isystem/extras/squashfs_utils
+ -Isystem/core/logwrapper/include
+ -Isystem/extras/ext4_utils/include
+ -Isystem/core/libcutils/include
+ -Isystem/core/base/include
+ 
+ -Iexternal/selinux/libselinux/include -Iexternal/pcre/include -Isystem/core/libpackagelistparser/include
+ -Isystem/core/liblog/include
+ -Isystem/core/libcrypto_utils/include
+ -Iexternal/boringssl/src/include -Iexternal/boringssl/src/include
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ 
+ -Isystem/core/libsparse/include
+ -Iexternal/zlib
+ -Isystem/core/libprocessgroup/include
+ -Iexternal/avb
+ -Isystem/core/libkeyutils/include
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ 
+ 
+ 
+ 

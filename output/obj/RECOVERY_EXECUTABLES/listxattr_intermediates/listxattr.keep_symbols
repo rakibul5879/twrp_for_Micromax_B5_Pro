@@ -1,0 +1,13 @@
+_ZL7sprintfPcU17pass_object_size1PKcz
+__FINI_ARRAY__
+__INIT_ARRAY__
+__PREINIT_ARRAY__
+__atexit_handler_wrapper
+_start
+_start_main
+atexit
+dump_list
+dumpmem
+main
+pthread_atfork
+usage

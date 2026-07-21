@@ -1,0 +1,5 @@
+__bss_start
+_edata
+_end
+android_pubkey_decode
+android_pubkey_encode

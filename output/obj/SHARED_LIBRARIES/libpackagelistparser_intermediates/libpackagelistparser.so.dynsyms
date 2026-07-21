@@ -1,0 +1,5 @@
+__bss_start
+_edata
+_end
+packagelist_free
+packagelist_parse

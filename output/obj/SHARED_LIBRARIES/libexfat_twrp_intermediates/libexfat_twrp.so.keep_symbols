@@ -1,0 +1,14 @@
+__atexit_handler_wrapper
+__on_dlclose
+atexit
+create
+delete
+erase_entry
+fetch_next_entry
+find_slot
+flush_nodes
+lookup_name
+opendir
+pthread_atfork
+reset_cache
+shrink_file

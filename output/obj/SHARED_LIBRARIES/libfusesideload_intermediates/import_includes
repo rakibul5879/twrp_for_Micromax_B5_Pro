@@ -1,0 +1,7 @@
+ -Isystem/core/libcutils/include
+ -Iexternal/boringssl/src/include -Iexternal/boringssl/src/include
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ 
+ 
+ 
+ 

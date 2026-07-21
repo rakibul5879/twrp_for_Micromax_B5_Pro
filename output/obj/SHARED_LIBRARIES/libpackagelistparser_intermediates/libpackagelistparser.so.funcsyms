@@ -1,0 +1,6 @@
+__atexit_handler_wrapper
+__on_dlclose
+atexit
+packagelist_free
+packagelist_parse
+pthread_atfork

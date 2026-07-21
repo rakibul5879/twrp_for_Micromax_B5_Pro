@@ -1,0 +1,8 @@
+ -Isystem/core/libcutils/include
+ -Isystem/core/liblog/include
+ -Iexternal/selinux/libselinux/include
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ 
+ 
+ 
+ 

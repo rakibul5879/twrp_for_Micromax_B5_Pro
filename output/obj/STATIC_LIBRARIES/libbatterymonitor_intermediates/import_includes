@@ -1,0 +1,8 @@
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ 
+ 
+ 
+ -Isystem/core/libutils/include -Isystem/core/libbacktrace/include -Isystem/core/liblog/include -Isystem/core/libsystem/include -Isystem/core/libcutils/include
+ -Isystem/core/base/include
+ -Iframeworks/native/libs/binder/include -Isystem/core/base/include -Isystem/core/libcutils/include -Isystem/core/libutils/include -Isystem/core/libbacktrace/include -Isystem/core/liblog/include -Isystem/core/libsystem/include -Isystem/core/libcutils/include -I/tmp/twrp_src/out/soong/.intermediates/frameworks/native/libs/binder/libbinder/android_arm64_armv8-a_static_core/gen/aidl
+ 

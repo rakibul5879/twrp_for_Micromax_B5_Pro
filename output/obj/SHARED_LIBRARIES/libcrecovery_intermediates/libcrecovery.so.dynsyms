@@ -1,0 +1,6 @@
+__bss_start
+__pclose
+__popen
+__system
+_edata
+_end

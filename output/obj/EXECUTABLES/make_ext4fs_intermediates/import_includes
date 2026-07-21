@@ -1,0 +1,10 @@
+ -Isystem/core/libcutils/include
+ -Iexternal/e2fsprogs/lib/uuid -Iexternal/e2fsprogs/lib
+ -Isystem/extras/ext4_utils/include
+ -Iexternal/selinux/libselinux/include
+ -Iexternal/zlib
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ 
+ 
+ 
+ 

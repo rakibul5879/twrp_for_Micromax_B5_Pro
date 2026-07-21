@@ -1,0 +1,82 @@
+/tmp/twrp_src/out/target/product/B5_Pro/obj/STATIC_LIBRARIES/libmdnssd_intermediates/mDNSShared/dnssd_ipc.o: \
+  external/mdnsresponder/mDNSShared/dnssd_ipc.c \
+  external/mdnsresponder/mDNSShared/dnssd_ipc.h \
+  external/mdnsresponder/mDNSShared/dns_sd.h \
+  external/libcxx/include/stdint.h external/libcxx/include/__config \
+  bionic/libc/include/stdint.h bionic/libc/include/bits/wchar_limits.h \
+  bionic/libc/include/sys/cdefs.h \
+  bionic/libc/include/android/api-level.h \
+  bionic/libc/include/android/versioning.h \
+  external/libcxx/include/stddef.h \
+  prebuilts/clang/host/linux-x86/clang-4053586/lib64/clang/5.0.300080/include/stddef.h \
+  bionic/libc/include/sys/types.h bionic/libc/kernel/uapi/linux/types.h \
+  bionic/libc/kernel/uapi/asm-arm64/asm/types.h \
+  bionic/libc/kernel/uapi/asm-generic/types.h \
+  bionic/libc/kernel/uapi/asm-generic/int-ll64.h \
+  bionic/libc/kernel/uapi/asm-arm64/asm/bitsperlong.h \
+  bionic/libc/kernel/uapi/asm-generic/bitsperlong.h \
+  bionic/libc/kernel/uapi/linux/posix_types.h \
+  bionic/libc/kernel/uapi/linux/stddef.h \
+  bionic/libc/kernel/android/uapi/linux/compiler.h \
+  bionic/libc/kernel/uapi/asm-arm64/asm/posix_types.h \
+  bionic/libc/kernel/uapi/asm-generic/posix_types.h \
+  bionic/libc/include/bits/pthread_types.h bionic/libc/include/unistd.h \
+  bionic/libc/include/sys/select.h bionic/libc/kernel/uapi/linux/time.h \
+  bionic/libc/include/signal.h \
+  bionic/libc/kernel/uapi/asm-arm64/asm/sigcontext.h \
+  bionic/libc/include/bits/timespec.h external/libcxx/include/limits.h \
+  bionic/libc/include/limits.h external/libcxx/include/float.h \
+  prebuilts/clang/host/linux-x86/clang-4053586/lib64/clang/5.0.300080/include/float.h \
+  bionic/libc/kernel/uapi/linux/limits.h \
+  bionic/libc/include/bits/posix_limits.h \
+  bionic/libc/kernel/uapi/linux/signal.h \
+  bionic/libc/kernel/uapi/asm-arm64/asm/signal.h \
+  bionic/libc/kernel/uapi/asm-generic/signal.h \
+  bionic/libc/kernel/uapi/asm-generic/signal-defs.h \
+  bionic/libc/kernel/uapi/asm-arm64/asm/siginfo.h \
+  bionic/libc/kernel/uapi/asm-generic/siginfo.h \
+  bionic/libc/include/sys/ucontext.h bionic/libc/include/sys/user.h \
+  bionic/libc/include/android/legacy_signal_inlines.h \
+  external/libcxx/include/errno.h bionic/libc/include/errno.h \
+  bionic/libc/kernel/uapi/linux/errno.h \
+  bionic/libc/kernel/uapi/asm-arm64/asm/errno.h \
+  bionic/libc/kernel/uapi/asm-generic/errno.h \
+  bionic/libc/kernel/uapi/asm-generic/errno-base.h \
+  bionic/libc/include/android/legacy_errno_inlines.h \
+  external/libcxx/include/string.h bionic/libc/include/string.h \
+  bionic/libc/include/xlocale.h bionic/libc/include/bits/strcasecmp.h \
+  bionic/libc/include/strings.h \
+  bionic/libc/include/android/legacy_strings_inlines.h \
+  bionic/libc/include/bits/fcntl.h bionic/libc/include/bits/getopt.h \
+  bionic/libc/include/bits/ioctl.h bionic/libc/include/bits/lockf.h \
+  bionic/libc/include/bits/seek_constants.h \
+  bionic/libc/include/bits/sysconf.h bionic/libc/include/sys/socket.h \
+  bionic/libc/kernel/uapi/linux/socket.h \
+  bionic/libc/kernel/uapi/asm-arm64/asm/fcntl.h \
+  bionic/libc/kernel/uapi/asm-generic/fcntl.h \
+  bionic/libc/kernel/uapi/asm-arm64/asm/socket.h \
+  bionic/libc/kernel/uapi/asm-generic/socket.h \
+  bionic/libc/kernel/uapi/asm-arm64/asm/sockios.h \
+  bionic/libc/kernel/uapi/asm-generic/sockios.h \
+  bionic/libc/kernel/uapi/linux/sockios.h \
+  bionic/libc/kernel/uapi/linux/uio.h \
+  bionic/libc/include/bits/sa_family_t.h bionic/libc/include/sys/un.h \
+  bionic/libc/kernel/uapi/linux/un.h external/libcxx/include/stdio.h \
+  bionic/libc/include/stdio.h \
+  prebuilts/clang/host/linux-x86/clang-4053586/lib64/clang/5.0.300080/include/stdarg.h \
+  external/libcxx/include/stdlib.h bionic/libc/include/stdlib.h \
+  bionic/libc/include/alloca.h bionic/libc/include/malloc.h \
+  bionic/libc/include/android/legacy_stdlib_inlines.h \
+  bionic/libc/include/sys/stat.h bionic/libc/kernel/uapi/linux/stat.h \
+  bionic/libc/include/android/legacy_sys_stat_inlines.h \
+  bionic/libc/include/netinet/in.h bionic/libc/include/endian.h \
+  bionic/libc/include/sys/endian.h bionic/libc/include/netinet/in6.h \
+  bionic/libc/kernel/uapi/linux/in6.h \
+  bionic/libc/kernel/uapi/linux/libc-compat.h \
+  bionic/libc/kernel/uapi/linux/in.h \
+  bionic/libc/kernel/uapi/asm-arm64/asm/byteorder.h \
+  bionic/libc/kernel/uapi/linux/byteorder/little_endian.h \
+  bionic/libc/kernel/uapi/linux/swab.h \
+  bionic/libc/kernel/uapi/asm-arm64/asm/swab.h \
+  bionic/libc/kernel/uapi/asm-generic/swab.h \
+  bionic/libc/kernel/uapi/linux/ipv6.h

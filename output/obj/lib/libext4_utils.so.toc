@@ -1,0 +1,185 @@
+ 0x000000000000000e (SONAME)             Library soname: [libext4_utils.so]
+  
+Symbol   contains 181 entries:
+Num:   Type Bind Vis Ndx Name
+0:   NOTYPE LOCAL DEFAULT UND
+1:   FUNC GLOBAL DEFAULT UND __cxa_finalize@LIBC (2)
+2:   FUNC GLOBAL DEFAULT UND __register_atfork@LIBC (2)
+3:   FUNC GLOBAL DEFAULT UND __cxa_atexit@LIBC (2)
+4:   FUNC GLOBAL DEFAULT UND __errno@LIBC (2)
+5:   FUNC GLOBAL DEFAULT UND closedir@LIBC (2)
+6:   FUNC GLOBAL DEFAULT UND __open_2@LIBC (2)
+7:   FUNC GLOBAL DEFAULT UND __stack_chk_fail@LIBC (2)
+8:   FUNC GLOBAL DEFAULT UND __strlen_chk@LIBC (2)
+9:   FUNC GLOBAL DEFAULT UND opendir@LIBC (2)
+10:   FUNC GLOBAL DEFAULT UND __vsnprintf_chk@LIBC (2)
+11:   FUNC GLOBAL DEFAULT UND access@LIBC (2)
+12:   FUNC GLOBAL DEFAULT UND readdir@LIBC (2)
+13:   FUNC GLOBAL DEFAULT UND alphasort@LIBC (2)
+14:   FUNC GLOBAL DEFAULT UND asprintf@LIBC (2)
+15:   FUNC GLOBAL DEFAULT UND calloc@LIBC (2)
+16:   FUNC GLOBAL DEFAULT UND close@LIBC (2)
+17:   FUNC GLOBAL DEFAULT UND fprintf@LIBC (2)
+18:   FUNC GLOBAL DEFAULT UND fputc@LIBC (2)
+19:   FUNC GLOBAL DEFAULT UND memcmp@LIBC (2)
+20:   FUNC GLOBAL DEFAULT UND fputs@LIBC (2)
+21:   FUNC GLOBAL DEFAULT UND free@LIBC (2)
+22:   FUNC GLOBAL DEFAULT UND freecon
+23:   FUNC GLOBAL DEFAULT UND fscanf@LIBC (2)
+24:   FUNC GLOBAL DEFAULT UND fwrite@LIBC (2)
+25:   FUNC GLOBAL DEFAULT UND realloc@LIBC (2)
+26:   FUNC GLOBAL DEFAULT UND getline@LIBC (2)
+27:   FUNC GLOBAL DEFAULT UND longjmp@LIBC (2)
+28:   FUNC GLOBAL DEFAULT UND lstat@LIBC (2)
+29:   FUNC GLOBAL DEFAULT UND strncpy@LIBC (2)
+30:   FUNC GLOBAL DEFAULT UND strtoull@LIBC (2)
+31:   FUNC GLOBAL DEFAULT UND malloc@LIBC (2)
+32:   FUNC GLOBAL DEFAULT UND memcpy@LIBC (2)
+33:   FUNC GLOBAL DEFAULT UND memset@LIBC (2)
+34:   FUNC GLOBAL DEFAULT UND open@LIBC (2)
+35:   FUNC GLOBAL DEFAULT UND printf@LIBC (2)
+36:   FUNC GLOBAL DEFAULT UND puts@LIBC (2)
+37:   FUNC GLOBAL DEFAULT UND qsort@LIBC (2)
+38:   FUNC GLOBAL DEFAULT UND readlink@LIBC (2)
+39:   FUNC GLOBAL DEFAULT UND scandir@LIBC (2)
+40:   FUNC GLOBAL DEFAULT UND selabel_lookup
+41:   FUNC GLOBAL DEFAULT UND setjmp@LIBC (2)
+42:   FUNC GLOBAL DEFAULT UND sparse_file_destroy
+43:   FUNC GLOBAL DEFAULT UND sparse_file_new
+44:   FUNC GLOBAL DEFAULT UND sscanf@LIBC (2)
+45:   OBJECT GLOBAL DEFAULT UND stderr@LIBC (2)
+46:   FUNC GLOBAL DEFAULT UND strcmp@LIBC (2)
+47:   FUNC GLOBAL DEFAULT UND strcpy@LIBC (2)
+48:   FUNC GLOBAL DEFAULT UND strdup@LIBC (2)
+49:   FUNC GLOBAL DEFAULT UND strerror@LIBC (2)
+50:   FUNC GLOBAL DEFAULT UND strlen@LIBC (2)
+51:   FUNC GLOBAL DEFAULT UND strncmp@LIBC (2)
+52:   FUNC GLOBAL DEFAULT UND strtok_r@LIBC (2)
+53:   FUNC GLOBAL DEFAULT UND __read_chk@LIBC (2)
+54:   FUNC GLOBAL DEFAULT UND __strncpy_chk@LIBC (2)
+55:   FUNC GLOBAL DEFAULT UND __write_chk@LIBC_N (3)
+56:   FUNC GLOBAL DEFAULT UND lseek64@LIBC (2)
+57:   FUNC GLOBAL DEFAULT UND read@LIBC (2)
+58:   FUNC GLOBAL DEFAULT UND write@LIBC (2)
+59:   FUNC GLOBAL DEFAULT UND fstat@LIBC (2)
+60:   FUNC GLOBAL DEFAULT UND ioctl@LIBC (2)
+61:   FUNC GLOBAL DEFAULT UND sparse_file_add_data
+62:   FUNC GLOBAL DEFAULT UND sparse_file_write
+63:   FUNC GLOBAL DEFAULT UND uuid_generate
+64:   FUNC GLOBAL DEFAULT UND sparse_file_add_file
+65:   FUNC GLOBAL DEFAULT UND _ZN7android4base10LogMess
+66:   FUNC GLOBAL DEFAULT UND _ZN7android4base10LogMess
+67:   FUNC GLOBAL DEFAULT UND _ZN7android4base10LogMess
+68:   FUNC GLOBAL DEFAULT UND _ZN7android4base21GetMini
+69:   FUNC GLOBAL DEFAULT UND _ZNKSt3__16locale9use_fac
+70:   FUNC GLOBAL DEFAULT UND _ZNKSt3__18ios_base6getlo
+71:   OBJECT GLOBAL DEFAULT UND _ZNSt3__15ctypeIcE2idE
+72:   FUNC GLOBAL DEFAULT UND _ZNSt3__16localeD1Ev
+73:   OBJECT GLOBAL DEFAULT UND _ZNSt3__17num_putIcNS_19o
+74:   FUNC GLOBAL DEFAULT UND _ZNSt3__18ios_base5clearE
+75:   FUNC GLOBAL DEFAULT UND _ZSt18uncaught_exceptionv
+76:   FUNC GLOBAL DEFAULT UND _ZdlPv
+77:   FUNC GLOBAL DEFAULT UND _Znwm
+78:   FUNC GLOBAL DEFAULT UND property_get
+79:   FUNC GLOBAL DEFAULT 12 generate_base_alloc_file_
+80:   FUNC GLOBAL DEFAULT 12 inode_set_selinux
+81:   FUNC GLOBAL DEFAULT 12 allocate_blocks
+82:   FUNC GLOBAL DEFAULT 12 SHA1Transform
+83:   FUNC GLOBAL DEFAULT 12 ext4_free_fs_aux_info
+84:   FUNC GLOBAL DEFAULT 12 reserve_bg_chunk
+85:   FUNC GLOBAL DEFAULT 12 allocate_inode
+86:   OBJECT GLOBAL DEFAULT 21 ext4_sparse_file
+87:   FUNC GLOBAL DEFAULT 12 get_oob_block
+88:   FUNC GLOBAL DEFAULT 12 last_region
+89:   FUNC GLOBAL DEFAULT 12 make_ext4fs_sparse_fd_ali
+90:   FUNC GLOBAL DEFAULT 12 write_sb
+91:   FUNC GLOBAL DEFAULT 12 add_directory
+92:   FUNC GLOBAL DEFAULT 12 SHA1Update
+93:   FUNC GLOBAL DEFAULT 12 get_directories
+94:   FUNC GLOBAL DEFAULT 12 get_bg_flags
+95:   FUNC GLOBAL DEFAULT 12 get_next_region
+96:   FUNC GLOBAL DEFAULT 12 get_region
+97:   FUNC GLOBAL DEFAULT 12 make_ext4fs_directory_ali
+98:   FUNC GLOBAL DEFAULT 12 read_ext
+99:   FUNC GLOBAL DEFAULT 12 block_allocator_free
+100:   FUNC GLOBAL DEFAULT 12 inode_allocate_extents
+101:   FUNC GLOBAL DEFAULT 12 ext4_create_resize_inode
+102:   FUNC GLOBAL DEFAULT 12 get_free_inodes
+103:   FUNC GLOBAL DEFAULT 12 ext4_create_journal_inode
+104:   FUNC GLOBAL DEFAULT 12 reset_ext4fs_info
+105:   FUNC WEAK DEFAULT 12 _ZNSt3__113basic_ostreamI
+106:   FUNC GLOBAL DEFAULT 12 ext4_create_fs_aux_info
+107:   FUNC GLOBAL DEFAULT 12 block_allocator_init
+108:   OBJECT GLOBAL DEFAULT 21 base_fs_allocations
+109:   FUNC GLOBAL DEFAULT 12 ext4_fill_in_sb
+110:   FUNC GLOBAL DEFAULT 12 is_block_device_fd
+111:   FUNC GLOBAL DEFAULT 12 make_ext4fs_directory
+112:   FUNC GLOBAL DEFAULT 12 advance_blocks
+113:   FUNC GLOBAL DEFAULT 12 make_ext4fs_sparse_fd_dir
+114:   FUNC GLOBAL DEFAULT 12 make_file
+115:   OBJECT GLOBAL DEFAULT 13 blk_file_major_ver
+116:   FUNC GLOBAL DEFAULT 12 make_ext4fs_sparse_fd_dir
+117:   FUNC GLOBAL DEFAULT 12 ext4_parse_sb
+118:   NOTYPE GLOBAL DEFAULT ABS _edata
+119:   OBJECT GLOBAL DEFAULT 21 setjmp_env
+120:   FUNC GLOBAL DEFAULT 12 wipe_block_device
+121:   FUNC GLOBAL DEFAULT 12 ext4_crc16
+122:   FUNC GLOBAL DEFAULT 12 get_saved_allocation_chai
+123:   FUNC GLOBAL DEFAULT 12 make_ext4fs
+124:   FUNC GLOBAL DEFAULT 12 region_list_merge
+125:   FUNC GLOBAL DEFAULT 12 get_block
+126:   FUNC WEAK DEFAULT 12 _ZNSt3__124__put_characte
+127:   FUNC GLOBAL DEFAULT 12 ext4_update_free
+128:   FUNC GLOBAL DEFAULT 12 ext4_bg_has_super_block
+129:   FUNC GLOBAL DEFAULT 12 append_oob_allocation
+130:   FUNC GLOBAL DEFAULT 12 inode_set_capabilities
+131:   FUNC GLOBAL DEFAULT 12 create_allocation
+132:   FUNC GLOBAL DEFAULT 12 get_free_blocks
+133:   FUNC GLOBAL DEFAULT 12 free_alloc
+134:   FUNC GLOBAL DEFAULT 12 e4crypt_is_native
+135:   FUNC GLOBAL DEFAULT 12 make_directory
+136:   FUNC GLOBAL DEFAULT 12 block_allocation_len
+137:   FUNC GLOBAL DEFAULT 12 SHA1Init
+138:   FUNC WEAK DEFAULT 12 _ZNSt3__113basic_ostreamI
+139:   FUNC GLOBAL DEFAULT 12 make_ext4fs_internal
+140:   FUNC GLOBAL DEFAULT 12 reserve_blocks_for_alloca
+141:   NOTYPE GLOBAL DEFAULT ABS __bss_start
+142:   OBJECT GLOBAL DEFAULT 21 aux_info
+143:   FUNC GLOBAL DEFAULT 12 get_inode
+144:   FUNC GLOBAL DEFAULT 12 reserve_oob_blocks
+145:   NOTYPE GLOBAL DEFAULT ABS _end
+146:   FUNC GLOBAL DEFAULT 12 region_list_append
+147:   FUNC GLOBAL DEFAULT 12 write_ext4_image
+148:   FUNC GLOBAL DEFAULT 12 inode_allocate_data_indir
+149:   FUNC GLOBAL DEFAULT 12 make_ext4fs_sparse_fd
+150:   OBJECT GLOBAL DEFAULT 13 blk_file_minor_ver
+151:   FUNC GLOBAL DEFAULT 12 ext4fixup
+152:   FUNC GLOBAL DEFAULT 12 ext4fixup_internal
+153:   FUNC GLOBAL DEFAULT 12 bitmap_get_bit
+154:   FUNC GLOBAL DEFAULT 12 inode_set_permissions
+155:   FUNC GLOBAL DEFAULT 12 advance_oob_blocks
+156:   FUNC GLOBAL DEFAULT 12 print_blocks
+157:   FUNC GLOBAL DEFAULT 12 parse_num
+158:   FUNC GLOBAL DEFAULT 12 inode_allocate_data_exten
+159:   FUNC GLOBAL DEFAULT 12 SHA1Final
+160:   FUNC GLOBAL DEFAULT 12 rewind_alloc
+161:   FUNC GLOBAL DEFAULT 12 bitmap_clear_bit
+162:   FUNC GLOBAL DEFAULT 12 read_sb
+163:   FUNC GLOBAL DEFAULT 12 reduce_allocation
+164:   FUNC GLOBAL DEFAULT 12 ext4_parse_sb_info
+165:   FUNC GLOBAL DEFAULT 12 inode_allocate_file_exten
+166:   FUNC GLOBAL DEFAULT 12 inode_attach_resize
+167:   OBJECT GLOBAL DEFAULT 21 info
+168:   FUNC GLOBAL DEFAULT 12 append_region
+169:   FUNC GLOBAL DEFAULT 12 allocate_block
+170:   FUNC GLOBAL DEFAULT 12 get_xattr_block_for_inode
+171:   FUNC GLOBAL DEFAULT 12 e4crypt_policy_ensure
+172:   FUNC GLOBAL DEFAULT 12 make_link
+173:   FUNC GLOBAL DEFAULT 12 ext4_queue_sb
+174:   FUNC GLOBAL DEFAULT 12 get_file_size
+175:   OBJECT GLOBAL DEFAULT 20 blk_file_header_fmt
+176:   OBJECT GLOBAL DEFAULT 21 force
+177:   FUNC GLOBAL DEFAULT 12 get_block_device_size
+178:   FUNC GLOBAL DEFAULT 12 inode_allocate_indirect
+179:   FUNC GLOBAL DEFAULT 12 reserve_inodes
+180:   FUNC GLOBAL DEFAULT 12 block_allocation_num_regi

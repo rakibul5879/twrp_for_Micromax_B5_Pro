@@ -1,0 +1,10 @@
+__bss_start
+_edata
+_end
+cmd_bml_backup_raw_partition
+cmd_bml_erase_partition
+cmd_bml_erase_raw_partition
+cmd_bml_get_partition_device
+cmd_bml_mount_partition
+cmd_bml_restore_raw_partition
+format_rfs_device

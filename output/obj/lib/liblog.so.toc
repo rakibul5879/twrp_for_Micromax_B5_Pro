@@ -1,0 +1,204 @@
+ 0x000000000000000e (SONAME)             Library soname: [liblog.so]
+  
+Symbol   contains 200 entries:
+Num:   Type Bind Vis Ndx Name
+0:   NOTYPE LOCAL DEFAULT UND
+1:   FUNC GLOBAL DEFAULT UND __cxa_finalize@LIBC (2)
+2:   FUNC GLOBAL DEFAULT UND __register_atfork@LIBC (2)
+3:   FUNC GLOBAL DEFAULT UND socket@LIBC (2)
+4:   FUNC GLOBAL DEFAULT UND __cxa_atexit@LIBC (2)
+5:   FUNC GLOBAL DEFAULT UND sigemptyset@LIBC (2)
+6:   FUNC GLOBAL DEFAULT UND sigaction@LIBC (2)
+7:   FUNC GLOBAL DEFAULT UND unlink@LIBC (2)
+8:   FUNC GLOBAL DEFAULT UND strtoull@LIBC (2)
+9:   FUNC GLOBAL DEFAULT UND strpbrk@LIBC (2)
+10:   FUNC GLOBAL DEFAULT UND strchr@LIBC (2)
+11:   FUNC GLOBAL DEFAULT UND read@LIBC (2)
+12:   FUNC GLOBAL DEFAULT UND isprint@LIBC (2)
+13:   FUNC GLOBAL DEFAULT UND access@LIBC (2)
+14:   FUNC GLOBAL DEFAULT UND recvfrom@LIBC (2)
+15:   FUNC GLOBAL DEFAULT UND memmove@LIBC (2)
+16:   FUNC GLOBAL DEFAULT UND connect@LIBC (2)
+17:   FUNC GLOBAL DEFAULT UND atol@LIBC (2)
+18:   FUNC GLOBAL DEFAULT UND __errno@LIBC (2)
+19:   FUNC GLOBAL DEFAULT UND alarm@LIBC (2)
+20:   FUNC GLOBAL DEFAULT UND asprintf@LIBC (2)
+21:   FUNC GLOBAL DEFAULT UND calloc@LIBC (2)
+22:   FUNC GLOBAL DEFAULT UND __strcpy_chk@LIBC (2)
+23:   FUNC GLOBAL DEFAULT UND free@LIBC (2)
+24:   FUNC GLOBAL DEFAULT UND __poll_chk@LIBC (2)
+25:   FUNC GLOBAL DEFAULT UND getpid@LIBC (2)
+26:   FUNC GLOBAL DEFAULT UND __system_property_find@LIBC (2)
+27:   FUNC GLOBAL DEFAULT UND getpwuid@LIBC (2)
+28:   FUNC GLOBAL DEFAULT UND __system_property_area_se@LIBC (2)
+29:   FUNC GLOBAL DEFAULT UND gettid@LIBC (2)
+30:   FUNC GLOBAL DEFAULT UND getuid@LIBC (2)
+31:   FUNC GLOBAL DEFAULT UND memcpy@LIBC (2)
+32:   FUNC GLOBAL DEFAULT UND memset@LIBC (2)
+33:   FUNC GLOBAL DEFAULT UND pthread_rwlock_rdlock@LIBC (2)
+34:   FUNC GLOBAL DEFAULT UND pthread_rwlock_unlock@LIBC (2)
+35:   FUNC GLOBAL DEFAULT UND pthread_rwlock_wrlock@LIBC (2)
+36:   FUNC GLOBAL DEFAULT UND __memmove_chk@LIBC (2)
+37:   FUNC GLOBAL DEFAULT UND toupper@LIBC (2)
+38:   FUNC GLOBAL DEFAULT UND __memcpy_chk@LIBC (2)
+39:   FUNC GLOBAL DEFAULT UND sysconf@LIBC (2)
+40:   FUNC GLOBAL DEFAULT UND __stack_chk_fail@LIBC (2)
+41:   FUNC GLOBAL DEFAULT UND strncpy@LIBC (2)
+42:   FUNC GLOBAL DEFAULT UND strcasestr@LIBC (2)
+43:   FUNC GLOBAL DEFAULT UND __system_property_serial@LIBC (2)
+44:   FUNC GLOBAL DEFAULT UND __system_property_read@LIBC (2)
+45:   FUNC GLOBAL DEFAULT UND pthread_rwlock_destroy@LIBC (2)
+46:   FUNC GLOBAL DEFAULT UND munmap@LIBC (2)
+47:   FUNC GLOBAL DEFAULT UND mmap@LIBC (2)
+48:   FUNC GLOBAL DEFAULT UND lseek@LIBC (2)
+49:   FUNC GLOBAL DEFAULT UND isalnum@LIBC (2)
+50:   FUNC GLOBAL DEFAULT UND close@LIBC (2)
+51:   FUNC GLOBAL DEFAULT UND strnlen@LIBC (2)
+52:   FUNC GLOBAL DEFAULT UND strerror@LIBC (2)
+53:   FUNC GLOBAL DEFAULT UND pthread_mutex_trylock@LIBC (2)
+54:   FUNC GLOBAL DEFAULT UND realloc@LIBC (2)
+55:   FUNC GLOBAL DEFAULT UND pthread_mutex_unlock@LIBC (2)
+56:   FUNC GLOBAL DEFAULT UND pthread_rwlock_init@LIBC (2)
+57:   FUNC GLOBAL DEFAULT UND time@LIBC (2)
+58:   FUNC GLOBAL DEFAULT UND pthread_mutex_lock@LIBC (2)
+59:   FUNC GLOBAL DEFAULT UND strcmp@LIBC (2)
+60:   FUNC GLOBAL DEFAULT UND strrchr@LIBC (2)
+61:   FUNC GLOBAL DEFAULT UND __open_2@LIBC (2)
+62:   FUNC GLOBAL DEFAULT UND strtok_r@LIBC (2)
+63:   FUNC GLOBAL DEFAULT UND fileno@LIBC (2)
+64:   FUNC GLOBAL DEFAULT UND write@LIBC (2)
+65:   FUNC GLOBAL DEFAULT UND sched_yield@LIBC (2)
+66:   FUNC GLOBAL DEFAULT UND strftime@LIBC (2)
+67:   FUNC GLOBAL DEFAULT UND strdup@LIBC (2)
+68:   FUNC GLOBAL DEFAULT UND strcspn@LIBC (2)
+69:   FUNC GLOBAL DEFAULT UND strcpy@LIBC (2)
+70:   FUNC GLOBAL DEFAULT UND strcasecmp@LIBC (2)
+71:   OBJECT GLOBAL DEFAULT UND stderr@LIBC (2)
+72:   FUNC GLOBAL DEFAULT UND __strlen_chk@LIBC (2)
+73:   FUNC GLOBAL DEFAULT UND setenv@LIBC (2)
+74:   FUNC GLOBAL DEFAULT UND __vsnprintf_chk@LIBC (2)
+75:   FUNC GLOBAL DEFAULT UND popen@LIBC (2)
+76:   FUNC GLOBAL DEFAULT UND abort@LIBC (2)
+77:   FUNC GLOBAL DEFAULT UND unsetenv@LIBC (2)
+78:   FUNC GLOBAL DEFAULT UND tzset@LIBC (2)
+79:   OBJECT GLOBAL DEFAULT UND tzname@LIBC (2)
+80:   FUNC GLOBAL DEFAULT UND tolower@LIBC (2)
+81:   FUNC GLOBAL DEFAULT UND strtoul@LIBC (2)
+82:   FUNC GLOBAL DEFAULT UND strstr@LIBC (2)
+83:   FUNC GLOBAL DEFAULT UND android_set_abort_message@LIBC (2)
+84:   FUNC GLOBAL DEFAULT UND strsep@LIBC (2)
+85:   FUNC GLOBAL DEFAULT UND strptime@LIBC (2)
+86:   FUNC GLOBAL DEFAULT UND clock_gettime@LIBC (2)
+87:   FUNC GLOBAL DEFAULT UND fprintf@LIBC (2)
+88:   FUNC GLOBAL DEFAULT UND getegid@LIBC (2)
+89:   FUNC GLOBAL DEFAULT UND geteuid@LIBC (2)
+90:   FUNC GLOBAL DEFAULT UND getgid@LIBC (2)
+91:   FUNC GLOBAL DEFAULT UND getgroups@LIBC (2)
+92:   FUNC GLOBAL DEFAULT UND strlen@LIBC (2)
+93:   FUNC GLOBAL DEFAULT UND strncmp@LIBC (2)
+94:   FUNC GLOBAL DEFAULT UND writev@LIBC (2)
+95:   FUNC GLOBAL DEFAULT UND __strcat_chk@LIBC (2)
+96:   FUNC GLOBAL DEFAULT UND pclose@LIBC (2)
+97:   FUNC GLOBAL DEFAULT UND __strchr_chk@LIBC (2)
+98:   FUNC GLOBAL DEFAULT UND mktime@LIBC (2)
+99:   FUNC GLOBAL DEFAULT UND __strncat_chk@LIBC (2)
+100:   FUNC GLOBAL DEFAULT UND malloc@LIBC (2)
+101:   FUNC GLOBAL DEFAULT UND __strncpy_chk@LIBC (2)
+102:   FUNC GLOBAL DEFAULT UND localtime_r@LIBC (2)
+103:   FUNC GLOBAL DEFAULT UND isspace@LIBC (2)
+104:   FUNC GLOBAL DEFAULT UND getline@LIBC (2)
+105:   FUNC GLOBAL DEFAULT UND getenv@LIBC (2)
+106:   FUNC GLOBAL DEFAULT UND fwrite@LIBC (2)
+107:   FUNC GLOBAL DEFAULT UND _ZNSt3__112__next_primeEm
+108:   FUNC GLOBAL DEFAULT UND _ZdlPv
+109:   FUNC GLOBAL DEFAULT UND _Znwm
+110:   FUNC GLOBAL DEFAULT UND __write_chk@LIBC_N (3)
+111:   FUNC GLOBAL DEFAULT 12 android_log_printLogLine
+112:   FUNC GLOBAL DEFAULT 12 create_android_logger
+113:   FUNC GLOBAL DEFAULT 12 __android_log_pmsg_file_r
+114:   FUNC GLOBAL DEFAULT 12 android_logger_list_alloc
+115:   FUNC GLOBAL DEFAULT 12 android_openEventTagMap
+116:   FUNC GLOBAL DEFAULT 12 android_log_addFilterStri
+117:   FUNC GLOBAL DEFAULT 12 android_log_processLogBuf
+118:   FUNC GLOBAL DEFAULT 12 android_logger_list_open
+119:   FUNC GLOBAL DEFAULT 12 android_logger_list_free
+120:   FUNC GLOBAL DEFAULT 12 android_log_write_string8
+121:   FUNC WEAK DEFAULT 12 socket_local_client
+122:   FUNC GLOBAL DEFAULT 12 android_log_format_new
+123:   FUNC GLOBAL DEFAULT 12 android_logger_open
+124:   FUNC GLOBAL DEFAULT 12 android_log_setPrintForma
+125:   FUNC GLOBAL DEFAULT 12 android_lookupEventTag
+126:   FUNC GLOBAL DEFAULT 12 android_name_to_log_id
+127:   FUNC GLOBAL DEFAULT 12 android_log_formatLogLine
+128:   FUNC GLOBAL DEFAULT 12 android_logger_clear
+129:   FUNC GLOBAL DEFAULT 12 __android_log_close
+130:   FUNC GLOBAL DEFAULT 12 _ZN8log_timepLERK8timespe
+131:   FUNC GLOBAL DEFAULT 12 android_log_read_next
+132:   FUNC GLOBAL DEFAULT 12 _ZN8log_timepLERKS_
+133:   FUNC GLOBAL DEFAULT 12 android_logger_get_log_si
+134:   FUNC GLOBAL DEFAULT 12 android_log_clockid
+135:   FUNC GLOBAL DEFAULT 12 __android_log_btwrite
+136:   FUNC WEAK DEFAULT 12 socket_make_sockaddr_un
+137:   FUNC GLOBAL DEFAULT 12 android_logger_get_log_ve
+138:   FUNC GLOBAL DEFAULT 12 android_logger_list_read
+139:   FUNC GLOBAL DEFAULT 12 __android_log_error_write
+140:   FUNC GLOBAL DEFAULT 12 __android_log_dev_availab
+141:   FUNC GLOBAL DEFAULT 12 android_log_destroy
+142:   OBJECT GLOBAL DEFAULT 13 _ZN8log_time5EPOCHE
+143:   FUNC GLOBAL DEFAULT 12 __android_logger_valid_bu
+144:   FUNC GLOBAL DEFAULT 12 __android_log_security_bw
+145:   FUNC GLOBAL DEFAULT 12 android_logger_set_log_si
+146:   FUNC GLOBAL DEFAULT 12 android_logger_set_prune_
+147:   FUNC GLOBAL DEFAULT 12 __android_log_buf_write
+148:   FUNC GLOBAL DEFAULT 12 android_log_write_int64
+149:   FUNC GLOBAL DEFAULT 12 android_logger_list_alloc
+150:   FUNC GLOBAL DEFAULT 12 android_set_log_transport
+151:   FUNC GLOBAL DEFAULT 12 __android_log_buf_print
+152:   FUNC GLOBAL DEFAULT 12 _ZN8log_timemIERK8timespe
+153:   FUNC GLOBAL DEFAULT 12 __android_log_is_loggable
+154:   FUNC GLOBAL DEFAULT 12 android_lookupEventFormat
+155:   FUNC GLOBAL DEFAULT 12 android_log_format_free
+156:   FUNC GLOBAL DEFAULT 12 android_lookupEventTagNum
+157:   OBJECT GLOBAL DEFAULT 13 _ZN8log_time14default_for
+158:   FUNC WEAK DEFAULT 12 socket_local_client_conne
+159:   FUNC GLOBAL DEFAULT 12 android_log_write_list
+160:   FUNC GLOBAL DEFAULT 12 android_logger_get_statis
+161:   FUNC GLOBAL DEFAULT 12 create_android_log_parser
+162:   FUNC GLOBAL DEFAULT 12 _ZN8log_time8strptimeEPKc
+163:   FUNC GLOBAL DEFAULT 12 android_log_write_float32
+164:   FUNC GLOBAL DEFAULT 12 android_log_write_list_en
+165:   FUNC GLOBAL DEFAULT 12 __android_log_vprint
+166:   FUNC GLOBAL DEFAULT 12 android_log_write_list_be
+167:   FUNC GLOBAL DEFAULT 12 android_log_id_to_name
+168:   FUNC GLOBAL DEFAULT 12 android_log_formatFromStr
+169:   FUNC GLOBAL DEFAULT 12 __android_log_bwrite
+170:   FUNC GLOBAL DEFAULT 12 __android_log_assert
+171:   FUNC GLOBAL DEFAULT 12 __android_log_write
+172:   FUNC GLOBAL DEFAULT 12 android_get_log_transport
+173:   FUNC GLOBAL DEFAULT 12 __android_logger_property
+174:   FUNC GLOBAL DEFAULT 12 android_logger_get_log_re
+175:   FUNC GLOBAL DEFAULT 12 _ZN8log_timemIERKS_
+176:   FUNC GLOBAL DEFAULT 12 android_lookupEventTag_le
+177:   FUNC GLOBAL DEFAULT 12 __android_log_print
+178:   NOTYPE GLOBAL DEFAULT ABS _edata
+179:   FUNC GLOBAL DEFAULT 12 android_log_write_string8
+180:   FUNC GLOBAL DEFAULT 12 android_log_processBinary
+181:   FUNC GLOBAL DEFAULT 12 __android_logger_get_buff
+182:   FUNC GLOBAL DEFAULT 12 __android_log_ratelimit
+183:   FUNC GLOBAL DEFAULT 12 __android_log_is_debuggab
+184:   FUNC GLOBAL DEFAULT 12 android_log_write_list_bu
+185:   NOTYPE GLOBAL DEFAULT ABS _end
+186:   FUNC GLOBAL DEFAULT 12 android_log_addFilterRule
+187:   FUNC GLOBAL DEFAULT 12 android_log_write_int32
+188:   FUNC GLOBAL DEFAULT 12 android_logger_get_id
+189:   FUNC GLOBAL DEFAULT 12 __android_log_security
+190:   FUNC GLOBAL DEFAULT 12 android_closeEventTagMap
+191:   FUNC GLOBAL DEFAULT 12 android_log_peek_next
+192:   FUNC GLOBAL DEFAULT 12 android_logger_get_prune_
+193:   FUNC GLOBAL DEFAULT 12 __android_log_bswrite
+194:   FUNC GLOBAL DEFAULT 12 android_log_shouldPrintLi
+195:   FUNC WEAK DEFAULT 12 utf8_character_length
+196:   FUNC GLOBAL DEFAULT 12 __android_log_is_loggable
+197:   FUNC GLOBAL DEFAULT 12 __android_log_pmsg_file_w
+198:   NOTYPE GLOBAL DEFAULT ABS __bss_start
+199:   FUNC GLOBAL DEFAULT 12 __android_log_security_bs

@@ -1,0 +1,134 @@
+/tmp/twrp_src/out/target/product/B5_Pro/obj/SHARED_LIBRARIES/libaosprecovery_intermediates/installcommand.o: \
+  bootable/recovery/installcommand.cpp external/libcxx/include/stdlib.h \
+  external/libcxx/include/__config bionic/libc/include/features.h \
+  bionic/libc/include/sys/cdefs.h \
+  bionic/libc/include/android/api-level.h \
+  bionic/libc/include/android/versioning.h bionic/libc/include/stdlib.h \
+  bionic/libc/include/xlocale.h bionic/libc/include/alloca.h \
+  bionic/libc/include/malloc.h external/libcxx/include/stddef.h \
+  prebuilts/clang/host/linux-x86/clang-4053586/lib64/clang/5.0.300080/include/stddef.h \
+  prebuilts/clang/host/linux-x86/clang-4053586/lib64/clang/5.0.300080/include/__stddef_max_align_t.h \
+  external/libcxx/include/__nullptr external/libcxx/include/stdio.h \
+  bionic/libc/include/stdio.h bionic/libc/include/sys/types.h \
+  external/libcxx/include/stdint.h bionic/libc/include/stdint.h \
+  bionic/libc/include/bits/wchar_limits.h \
+  bionic/libc/kernel/uapi/linux/types.h \
+  bionic/libc/kernel/uapi/asm-arm64/asm/types.h \
+  bionic/libc/kernel/uapi/asm-generic/types.h \
+  bionic/libc/kernel/uapi/asm-generic/int-ll64.h \
+  bionic/libc/kernel/uapi/asm-arm64/asm/bitsperlong.h \
+  bionic/libc/kernel/uapi/asm-generic/bitsperlong.h \
+  bionic/libc/kernel/uapi/linux/posix_types.h \
+  bionic/libc/kernel/uapi/linux/stddef.h \
+  bionic/libc/kernel/android/uapi/linux/compiler.h \
+  bionic/libc/kernel/uapi/asm-arm64/asm/posix_types.h \
+  bionic/libc/kernel/uapi/asm-generic/posix_types.h \
+  bionic/libc/include/bits/pthread_types.h \
+  prebuilts/clang/host/linux-x86/clang-4053586/lib64/clang/5.0.300080/include/stdarg.h \
+  bionic/libc/include/bits/seek_constants.h \
+  bionic/libc/include/android/legacy_stdlib_inlines.h \
+  external/libcxx/include/string external/libcxx/include/string_view \
+  external/libcxx/include/__string external/libcxx/include/algorithm \
+  external/libcxx/include/initializer_list \
+  external/libcxx/include/cstddef external/libcxx/include/type_traits \
+  external/libcxx/include/cstring external/libcxx/include/string.h \
+  bionic/libc/include/string.h bionic/libc/include/bits/strcasecmp.h \
+  bionic/libc/include/strings.h \
+  bionic/libc/include/android/legacy_strings_inlines.h \
+  external/libcxx/include/utility external/libcxx/include/__tuple \
+  external/libcxx/include/cstdint external/libcxx/include/__debug \
+  external/libcxx/include/memory external/libcxx/include/typeinfo \
+  external/libcxx/include/exception external/libcxx/include/cstdlib \
+  external/libcxx/include/new external/libcxx/include/limits \
+  external/libcxx/include/__undef_min_max \
+  external/libcxx/include/iterator external/libcxx/include/iosfwd \
+  external/libcxx/include/wchar.h bionic/libc/include/wchar.h \
+  bionic/libc/include/time.h bionic/libc/include/sys/time.h \
+  bionic/libc/kernel/uapi/linux/time.h bionic/libc/include/sys/select.h \
+  bionic/libc/include/signal.h \
+  bionic/libc/kernel/uapi/asm-arm64/asm/sigcontext.h \
+  bionic/libc/include/bits/timespec.h external/libcxx/include/limits.h \
+  bionic/libc/include/limits.h external/libcxx/include/float.h \
+  prebuilts/clang/host/linux-x86/clang-4053586/lib64/clang/5.0.300080/include/float.h \
+  bionic/libc/kernel/uapi/linux/limits.h \
+  bionic/libc/include/bits/posix_limits.h \
+  bionic/libc/kernel/uapi/linux/signal.h \
+  bionic/libc/kernel/uapi/asm-arm64/asm/signal.h \
+  bionic/libc/kernel/uapi/asm-generic/signal.h \
+  bionic/libc/kernel/uapi/asm-generic/signal-defs.h \
+  bionic/libc/kernel/uapi/asm-arm64/asm/siginfo.h \
+  bionic/libc/kernel/uapi/asm-generic/siginfo.h \
+  bionic/libc/include/sys/ucontext.h bionic/libc/include/sys/user.h \
+  bionic/libc/include/android/legacy_signal_inlines.h \
+  external/libcxx/include/errno.h bionic/libc/include/errno.h \
+  bionic/libc/kernel/uapi/linux/errno.h \
+  bionic/libc/kernel/uapi/asm-arm64/asm/errno.h \
+  bionic/libc/kernel/uapi/asm-generic/errno.h \
+  bionic/libc/kernel/uapi/asm-generic/errno-base.h \
+  bionic/libc/include/android/legacy_errno_inlines.h \
+  bionic/libc/include/bits/mbstate_t.h bionic/libc/include/bits/wctype.h \
+  external/libcxx/include/__functional_base \
+  external/libcxx/include/tuple external/libcxx/include/stdexcept \
+  external/libcxx/include/atomic external/libcxx/include/cstdio \
+  external/libcxx/include/cwchar external/libcxx/include/cwctype \
+  external/libcxx/include/cctype external/libcxx/include/ctype.h \
+  bionic/libc/include/ctype.h external/libcxx/include/wctype.h \
+  bionic/libc/include/wctype.h external/libcxx/include/vector \
+  external/libcxx/include/__bit_reference \
+  external/libcxx/include/climits external/libcxx/include/__split_buffer \
+  system/core/libcutils/include/cutils/properties.h \
+  bionic/libc/include/sys/system_properties.h \
+  external/libcxx/include/stdbool.h \
+  prebuilts/clang/host/linux-x86/clang-4053586/lib64/clang/5.0.300080/include/stdbool.h \
+  bootable/recovery/common.h bootable/recovery/installcommand.h \
+  bootable/recovery/zipwrap.hpp \
+  system/core/libziparchive/include/ziparchive/zip_archive.h \
+  system/core/include/utils/Compat.h bionic/libc/include/unistd.h \
+  bionic/libc/include/bits/fcntl.h bionic/libc/include/bits/getopt.h \
+  bionic/libc/include/bits/ioctl.h bionic/libc/include/bits/lockf.h \
+  bionic/libc/include/bits/sysconf.h \
+  bootable/recovery/otautil/include/otautil/SysUtil.h \
+  system/libvintf/include/vintf/VintfObjectRecovery.h \
+  system/libvintf/include/vintf/VintfObject.h \
+  system/libvintf/include/vintf/CompatibilityMatrix.h \
+  external/libcxx/include/map external/libcxx/include/__tree \
+  external/libcxx/include/functional system/core/include/utils/Errors.h \
+  system/libvintf/include/vintf/HalGroup.h \
+  system/libvintf/include/vintf/MapValueIterator.h \
+  system/libvintf/include/vintf/MatrixHal.h \
+  system/libvintf/include/vintf/HalFormat.h \
+  external/libcxx/include/array \
+  system/libvintf/include/vintf/HalInterface.h \
+  external/libcxx/include/set \
+  system/libvintf/include/vintf/VersionRange.h \
+  system/libvintf/include/vintf/Version.h \
+  system/libvintf/include/vintf/MatrixKernel.h \
+  system/libvintf/include/vintf/KernelConfigTypedValue.h \
+  system/libvintf/include/vintf/KernelConfigType.h \
+  system/libvintf/include/vintf/Tristate.h \
+  system/libvintf/include/vintf/SchemaType.h \
+  system/libvintf/include/vintf/Sepolicy.h \
+  system/libvintf/include/vintf/Vndk.h \
+  system/libvintf/include/vintf/XmlFileGroup.h \
+  system/libvintf/include/vintf/XmlFile.h \
+  system/libvintf/include/vintf/XmlSchemaFormat.h \
+  system/libvintf/include/vintf/DisabledChecks.h \
+  system/libvintf/include/vintf/HalManifest.h \
+  system/libvintf/include/vintf/ManifestHal.h \
+  system/libvintf/include/vintf/TransportArch.h \
+  system/libvintf/include/vintf/Arch.h \
+  system/libvintf/include/vintf/Transport.h \
+  system/libvintf/include/vintf/RuntimeInfo.h \
+  bootable/recovery/verifier.h \
+  external/boringssl/src/include/openssl/ec_key.h \
+  external/boringssl/src/include/openssl/base.h \
+  external/boringssl/src/include/openssl/is_boringssl.h \
+  external/boringssl/src/include/openssl/opensslconf.h \
+  external/boringssl/src/include/openssl/ec.h \
+  external/boringssl/src/include/openssl/engine.h \
+  external/boringssl/src/include/openssl/ex_data.h \
+  external/boringssl/src/include/openssl/stack.h \
+  external/boringssl/src/include/openssl/type_check.h \
+  external/boringssl/src/include/openssl/rsa.h \
+  external/boringssl/src/include/openssl/thread.h \
+  external/boringssl/src/include/openssl/sha.h

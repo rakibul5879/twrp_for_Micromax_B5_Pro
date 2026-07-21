@@ -1,0 +1,12 @@
+_ZL7sprintfPcU17pass_object_size1PKcz
+__atexit_handler_wrapper
+__on_dlclose
+atexit
+compstr
+parse_line
+profile_add_node
+profile_free_node
+profile_node_iterator
+profile_open_file
+profile_update_file
+pthread_atfork

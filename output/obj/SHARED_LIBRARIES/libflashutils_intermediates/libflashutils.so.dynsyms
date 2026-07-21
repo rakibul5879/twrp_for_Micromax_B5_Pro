@@ -1,0 +1,13 @@
+__bss_start
+_edata
+_end
+backup_raw_partition
+device_flash_type
+erase_partition
+erase_raw_partition
+get_default_filesystem
+get_flash_type
+get_partition_device
+mount_partition
+restore_raw_partition
+the_flash_type

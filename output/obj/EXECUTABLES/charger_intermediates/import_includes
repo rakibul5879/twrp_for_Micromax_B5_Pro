@@ -1,0 +1,24 @@
+ 
+ 
+ 
+-I system/core/healthd -I system/core/healthd/include
+-I system/core/healthd
+-I system/core/healthd/include
+ -Isystem/core/base/include
+ -Isystem/core/libutils/include -Isystem/core/libbacktrace/include -Isystem/core/liblog/include -Isystem/core/libsystem/include -Isystem/core/libcutils/include
+ -Isystem/core/libcutils/include
+ -Isystem/core/liblog/include
+ 
+ 
+-I system/core/healthd/minui/include
+ -Isystem/core/adf/libadf/include
+-I external/libdrm -I external/libdrm/include/drm -I external/libdrm
+ -Isystem/core/libsync/include
+ -Iexternal/libpng
+ -Iexternal/zlib
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ 
+ 
+ 
+ 
+ 

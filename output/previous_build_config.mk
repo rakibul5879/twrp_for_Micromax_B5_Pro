@@ -1,0 +1,1 @@
+PREVIOUS_BUILD_CONFIG := omni_B5_Pro-eng

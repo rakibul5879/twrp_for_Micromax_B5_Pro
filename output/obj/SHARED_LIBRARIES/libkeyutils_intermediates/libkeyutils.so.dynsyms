@@ -1,0 +1,9 @@
+__bss_start
+_edata
+_end
+add_key
+keyctl_get_keyring_ID
+keyctl_revoke
+keyctl_search
+keyctl_setperm
+keyctl_unlink

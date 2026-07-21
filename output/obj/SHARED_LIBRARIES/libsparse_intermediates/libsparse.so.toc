@@ -1,0 +1,96 @@
+ 0x000000000000000e (SONAME)             Library soname: [libsparse.so]
+  
+Symbol   contains 92 entries:
+Num:   Type Bind Vis Ndx Name
+0:   NOTYPE LOCAL DEFAULT UND
+1:   FUNC GLOBAL DEFAULT UND __cxa_finalize@LIBC (2)
+2:   FUNC GLOBAL DEFAULT UND memset@LIBC (2)
+3:   FUNC GLOBAL DEFAULT UND __register_atfork@LIBC (2)
+4:   FUNC GLOBAL DEFAULT UND __cxa_atexit@LIBC (2)
+5:   FUNC GLOBAL DEFAULT UND abort@LIBC (2)
+6:   FUNC GLOBAL DEFAULT UND memcpy@LIBC (2)
+7:   FUNC GLOBAL DEFAULT UND vfprintf@LIBC (2)
+8:   FUNC GLOBAL DEFAULT UND calloc@LIBC (2)
+9:   FUNC GLOBAL DEFAULT UND free@LIBC (2)
+10:   FUNC GLOBAL DEFAULT UND malloc@LIBC (2)
+11:   FUNC GLOBAL DEFAULT UND strcmp@LIBC (2)
+12:   FUNC GLOBAL DEFAULT UND strdup@LIBC (2)
+13:   FUNC GLOBAL DEFAULT UND __errno@LIBC (2)
+14:   FUNC GLOBAL DEFAULT UND __open_2@LIBC (2)
+15:   FUNC GLOBAL DEFAULT UND __stack_chk_fail@LIBC (2)
+16:   FUNC GLOBAL DEFAULT UND close@LIBC (2)
+17:   FUNC GLOBAL DEFAULT UND fprintf@LIBC (2)
+18:   FUNC GLOBAL DEFAULT UND ftruncate64@LIBC (2)
+19:   FUNC GLOBAL DEFAULT UND gzclose
+20:   FUNC GLOBAL DEFAULT UND gzdopen
+21:   FUNC GLOBAL DEFAULT UND gzerror
+22:   FUNC GLOBAL DEFAULT UND gzseek
+23:   FUNC GLOBAL DEFAULT UND gztell
+24:   FUNC GLOBAL DEFAULT UND gzwrite
+25:   FUNC GLOBAL DEFAULT UND lseek64@LIBC (2)
+26:   FUNC GLOBAL DEFAULT UND mmap64@LIBC (2)
+27:   FUNC GLOBAL DEFAULT UND munmap@LIBC (2)
+28:   FUNC GLOBAL DEFAULT UND read@LIBC (2)
+29:   OBJECT GLOBAL DEFAULT UND stderr@LIBC (2)
+30:   FUNC GLOBAL DEFAULT UND strerror@LIBC (2)
+31:   FUNC GLOBAL DEFAULT UND write@LIBC (2)
+32:   FUNC GLOBAL DEFAULT UND _ZN7android4base12StringP
+33:   FUNC GLOBAL DEFAULT UND _ZN7android4base13StringA
+34:   FUNC GLOBAL DEFAULT UND _ZdlPv
+35:   FUNC GLOBAL DEFAULT UND _Znwm
+36:   FUNC GLOBAL DEFAULT 12 backed_block_add_fill
+37:   FUNC GLOBAL DEFAULT 12 sparse_file_add_fill
+38:   OBJECT GLOBAL DEFAULT 20 sparse_print_verbose
+39:   FUNC GLOBAL DEFAULT 12 sparse_file_resparse
+40:   FUNC GLOBAL DEFAULT 12 backed_block_list_new
+41:   FUNC GLOBAL DEFAULT 12 backed_block_len
+42:   FUNC GLOBAL DEFAULT 12 write_file_chunk
+43:   FUNC GLOBAL DEFAULT 12 output_file_close
+44:   FUNC GLOBAL DEFAULT 12 backed_block_destroy
+45:   FUNC GLOBAL DEFAULT 12 write_fd_chunk
+46:   FUNC GLOBAL DEFAULT 12 write_skip_chunk
+47:   FUNC GLOBAL DEFAULT 12 backed_block_data
+48:   FUNC GLOBAL DEFAULT 12 sparse_file_read
+49:   FUNC GLOBAL DEFAULT 12 backed_block_fill_val
+50:   FUNC GLOBAL DEFAULT 12 sparse_default_print
+51:   FUNC GLOBAL DEFAULT 12 backed_block_filename
+52:   FUNC GLOBAL DEFAULT 12 write_data_chunk
+53:   FUNC GLOBAL DEFAULT 12 sparse_file_block_size
+54:   FUNC GLOBAL DEFAULT 12 sparse_file_import_auto
+55:   FUNC WEAK DEFAULT 12 _ZNSt3__112basic_stringIc
+56:   FUNC GLOBAL DEFAULT 12 backed_block_block
+57:   FUNC GLOBAL DEFAULT 12 backed_block_fd
+58:   FUNC GLOBAL DEFAULT 12 backed_block_file_offset
+59:   FUNC GLOBAL DEFAULT 12 backed_block_split
+60:   FUNC GLOBAL DEFAULT 12 backed_block_type
+61:   FUNC GLOBAL DEFAULT 12 output_file_open_callback
+62:   FUNC GLOBAL DEFAULT 12 sparse_file_destroy
+63:   FUNC GLOBAL DEFAULT 12 write_normal_end_chunk
+64:   FUNC GLOBAL DEFAULT 12 write_sparse_end_chunk
+65:   FUNC GLOBAL DEFAULT 12 backed_block_list_move
+66:   FUNC GLOBAL DEFAULT 12 sparse_file_callback
+67:   FUNC WEAK DEFAULT 12 _ZNSt3__112basic_stringIc
+68:   FUNC GLOBAL DEFAULT 12 backed_block_add_fd
+69:   OBJECT GLOBAL DEFAULT 20 sparse_print_error
+70:   NOTYPE GLOBAL DEFAULT ABS __bss_start
+71:   FUNC GLOBAL DEFAULT 12 write_fill_chunk
+72:   FUNC GLOBAL DEFAULT 12 sparse_file_add_fd
+73:   NOTYPE GLOBAL DEFAULT ABS _end
+74:   FUNC GLOBAL DEFAULT 12 sparse_count_chunks
+75:   FUNC GLOBAL DEFAULT 12 backed_block_iter_next
+76:   FUNC GLOBAL DEFAULT 12 sparse_file_foreach_chunk
+77:   FUNC GLOBAL DEFAULT 12 backed_block_add_file
+78:   FUNC GLOBAL DEFAULT 12 sparse_file_add_file
+79:   NOTYPE GLOBAL DEFAULT ABS _edata
+80:   FUNC GLOBAL DEFAULT 12 backed_block_add_data
+81:   FUNC GLOBAL DEFAULT 12 output_file_open_fd
+82:   FUNC GLOBAL DEFAULT 12 read_all
+83:   FUNC GLOBAL DEFAULT 12 sparse_file_add_data
+84:   FUNC GLOBAL DEFAULT 12 sparse_file_len
+85:   FUNC GLOBAL DEFAULT 12 sparse_file_import
+86:   FUNC GLOBAL DEFAULT 12 sparse_crc32
+87:   FUNC GLOBAL DEFAULT 12 sparse_file_write
+88:   FUNC GLOBAL DEFAULT 12 sparse_file_new
+89:   FUNC GLOBAL DEFAULT 12 sparse_file_verbose
+90:   FUNC GLOBAL DEFAULT 12 backed_block_iter_new
+91:   FUNC GLOBAL DEFAULT 12 backed_block_list_destroy

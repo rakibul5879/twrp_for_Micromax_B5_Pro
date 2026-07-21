@@ -1,0 +1,38 @@
+ 0x000000000000000e (SONAME)             Library soname: [libopenaes.so]
+  
+Symbol   contains 34 entries:
+Num:   Type Bind Vis Ndx Name
+0:   NOTYPE LOCAL DEFAULT UND
+1:   FUNC GLOBAL DEFAULT UND __cxa_finalize@LIBC (2)
+2:   FUNC GLOBAL DEFAULT UND __register_atfork@LIBC (2)
+3:   FUNC GLOBAL DEFAULT UND __cxa_atexit@LIBC (2)
+4:   FUNC GLOBAL DEFAULT UND gettimeofday@LIBC (2)
+5:   FUNC GLOBAL DEFAULT UND __memcpy_chk@LIBC (2)
+6:   FUNC GLOBAL DEFAULT UND __stack_chk_fail@LIBC (2)
+7:   FUNC GLOBAL DEFAULT UND __strcat_chk@LIBC (2)
+8:   FUNC GLOBAL DEFAULT UND __vsprintf_chk@LIBC (2)
+9:   FUNC GLOBAL DEFAULT UND calloc@LIBC (2)
+10:   FUNC GLOBAL DEFAULT UND free@LIBC (2)
+11:   FUNC GLOBAL DEFAULT UND getpid@LIBC (2)
+12:   FUNC GLOBAL DEFAULT UND gmtime@LIBC (2)
+13:   FUNC GLOBAL DEFAULT UND memcpy@LIBC (2)
+14:   FUNC GLOBAL DEFAULT UND memset@LIBC (2)
+15:   FUNC GLOBAL DEFAULT 12 oaes_key_gen_192
+16:   NOTYPE GLOBAL DEFAULT ABS __bss_start
+17:   FUNC GLOBAL DEFAULT 12 oaes_encrypt
+18:   NOTYPE GLOBAL DEFAULT ABS _end
+19:   FUNC GLOBAL DEFAULT 12 oaes_set_option
+20:   FUNC GLOBAL DEFAULT 12 oaes_free
+21:   FUNC GLOBAL DEFAULT 12 oaes_sprintf
+22:   NOTYPE GLOBAL DEFAULT ABS _edata
+23:   FUNC GLOBAL DEFAULT 12 ftime
+24:   FUNC GLOBAL DEFAULT 12 oaes_key_export_data
+25:   FUNC GLOBAL DEFAULT 12 randinit
+26:   FUNC GLOBAL DEFAULT 12 oaes_alloc
+27:   FUNC GLOBAL DEFAULT 12 oaes_key_gen_256
+28:   FUNC GLOBAL DEFAULT 12 oaes_key_export
+29:   FUNC GLOBAL DEFAULT 12 oaes_decrypt
+30:   FUNC GLOBAL DEFAULT 12 oaes_key_import
+31:   FUNC GLOBAL DEFAULT 12 isaac
+32:   FUNC GLOBAL DEFAULT 12 oaes_key_gen_128
+33:   FUNC GLOBAL DEFAULT 12 oaes_key_import_data

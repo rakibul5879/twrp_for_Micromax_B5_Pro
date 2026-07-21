@@ -1,0 +1,9 @@
+__bss_start
+_edata
+_end
+do_mkdir_internal
+do_mknod_internal
+do_symlink_internal
+do_write_internal
+populate_fs
+populate_fs2

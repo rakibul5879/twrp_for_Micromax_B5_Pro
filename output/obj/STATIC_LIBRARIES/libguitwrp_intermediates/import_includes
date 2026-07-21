@@ -1,0 +1,11 @@
+ -Isystem/core/adf/libadf/include
+-I external/libdrm -I external/libdrm/include/drm -I external/libdrm
+ 
+ -Iexternal/selinux/libselinux/include
+ -Isystem/core/libziparchive/include
+ -Isystem/extras/ext4_utils/include
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ 
+ 
+ 
+ 

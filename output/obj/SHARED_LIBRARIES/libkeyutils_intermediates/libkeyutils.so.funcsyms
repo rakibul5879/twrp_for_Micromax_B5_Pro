@@ -1,0 +1,11 @@
+_ZL6keyctliz
+__atexit_handler_wrapper
+__on_dlclose
+add_key
+atexit
+keyctl_get_keyring_ID
+keyctl_revoke
+keyctl_search
+keyctl_setperm
+keyctl_unlink
+pthread_atfork

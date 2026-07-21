@@ -1,0 +1,12 @@
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ -Iexternal/zlib
+ -Isystem/core/libusbhost/include
+ 
+ -Isystem/core/libcutils/include
+ -Isystem/core/libutils/include -Isystem/core/libbacktrace/include -Isystem/core/liblog/include -Isystem/core/libsystem/include -Isystem/core/libcutils/include
+ -Iexternal/selinux/libselinux/include
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ 
+ 
+ 
+ 

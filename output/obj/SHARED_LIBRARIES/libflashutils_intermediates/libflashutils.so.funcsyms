@@ -1,0 +1,14 @@
+__atexit_handler_wrapper
+__on_dlclose
+atexit
+backup_raw_partition
+detect_partition
+device_flash_type
+erase_partition
+erase_raw_partition
+get_default_filesystem
+get_flash_type
+get_partition_device
+mount_partition
+pthread_atfork
+restore_raw_partition

@@ -1,0 +1,13 @@
+_ZL7sprintfPcU17pass_object_size1PKcz
+__atexit_handler_wrapper
+__on_dlclose
+__populate_fs
+atexit
+copy_file_range
+do_mkdir_internal
+do_mknod_internal
+do_symlink_internal
+do_write_internal
+populate_fs
+populate_fs2
+pthread_atfork

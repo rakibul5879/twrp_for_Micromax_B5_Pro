@@ -1,0 +1,18 @@
+ -Iexternal/zlib
+ -Isystem/core/libcutils/include
+ 
+ -Isystem/core/adf/libadf/include
+-I external/libdrm -I external/libdrm/include/drm -I external/libdrm
+-I bootable/recovery/bootloader_message_twrp/include
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ -Iexternal/boringssl/src/include -Iexternal/boringssl/src/include
+ -Isystem/core/base/include
+ -Isystem/core/libziparchive/include
+ -Isystem/core/libsparse/include
+ -Isystem/extras/ext4_utils/include
+ -Iexternal/selinux/libselinux/include
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ 
+ 
+ 
+ 

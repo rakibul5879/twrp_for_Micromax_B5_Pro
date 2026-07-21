@@ -1,0 +1,9 @@
+__bss_start
+_edata
+_end
+getenv
+killpg
+main
+putenv
+setenv
+unsetenv

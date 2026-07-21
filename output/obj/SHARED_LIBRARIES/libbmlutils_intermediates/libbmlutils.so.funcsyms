@@ -1,0 +1,13 @@
+_ZL7sprintfPcU17pass_object_size1PKcz
+__atexit_handler_wrapper
+__on_dlclose
+atexit
+cmd_bml_backup_raw_partition
+cmd_bml_erase_partition
+cmd_bml_erase_raw_partition
+cmd_bml_get_partition_device
+cmd_bml_mount_partition
+cmd_bml_restore_raw_partition
+format_rfs_device
+pthread_atfork
+restore_internal

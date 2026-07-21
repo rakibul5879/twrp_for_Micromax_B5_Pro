@@ -1,0 +1,22 @@
+ -Isystem/core/liblog/include
+ -Isystem/core/libcutils/include
+ -Iexternal/selinux/libselinux/include
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ -Iexternal/boringssl/src/include -Iexternal/boringssl/src/include
+ -Isystem/core/base/include
+ -Isystem/core/libziparchive/include
+ -Isystem/extras/ext4_utils/include
+ -Iexternal/boringssl/src/include -Iexternal/boringssl/src/include
+ -Isystem/core/libcrypto_utils/include
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ 
+ 
+ 
+-I system/libvintf/include
+ -Isystem/core/fs_mgr/include -Isystem/core/logwrapper/include -Isystem/core/fs_mgr/include_fstab -Isystem/core/fs_mgr/include_fstab
+ -Isystem/core/logwrapper/include
+ -Iexternal/avb
+ -Isystem/libvintf/include
+ -Iexternal/tinyxml2
+ -Iexternal/zlib
+ 

@@ -1,0 +1,10 @@
+_ZL8snprintfPcU17pass_object_size1mPKcz
+__FINI_ARRAY__
+__INIT_ARRAY__
+__PREINIT_ARRAY__
+__atexit_handler_wrapper
+_start
+_start_main
+atexit
+main
+pthread_atfork

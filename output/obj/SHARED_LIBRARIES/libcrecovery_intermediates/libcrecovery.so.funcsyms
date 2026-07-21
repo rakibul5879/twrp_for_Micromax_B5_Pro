@@ -1,0 +1,7 @@
+__atexit_handler_wrapper
+__on_dlclose
+__pclose
+__popen
+__system
+atexit
+pthread_atfork

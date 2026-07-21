@@ -1,0 +1,17 @@
+ -Iexternal/freetype/include
+ -Iexternal/zlib
+ -Isystem/core/libcutils/include
+ -Iexternal/libpng
+ -Isystem/core/libutils/include -Isystem/core/libbacktrace/include -Isystem/core/liblog/include -Isystem/core/libsystem/include -Isystem/core/libcutils/include
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ -Isystem/core/libcutils/include
+ -Isystem/core/liblog/include
+ -Isystem/core/libutils/include -Isystem/core/libbacktrace/include -Isystem/core/liblog/include -Isystem/core/libsystem/include -Isystem/core/libcutils/include
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ 
+ 
+ 
+-I system/core/libpixelflinger/include
+ 
+ -Isystem/core/adf/libadf/include
+-I external/libdrm -I external/libdrm/include/drm -I external/libdrm

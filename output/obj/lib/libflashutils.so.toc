@@ -1,0 +1,43 @@
+ 0x000000000000000e (SONAME)             Library soname: [libflashutils.so]
+  
+Symbol   contains 39 entries:
+Num:   Type Bind Vis Ndx Name
+0:   NOTYPE LOCAL DEFAULT UND
+1:   FUNC GLOBAL DEFAULT UND __cxa_finalize@LIBC (2)
+2:   FUNC GLOBAL DEFAULT UND __register_atfork@LIBC (2)
+3:   FUNC GLOBAL DEFAULT UND __cxa_atexit@LIBC (2)
+4:   FUNC GLOBAL DEFAULT UND access@LIBC (2)
+5:   FUNC GLOBAL DEFAULT UND cmd_bml_backup_raw_partit
+6:   FUNC GLOBAL DEFAULT UND cmd_bml_erase_partition
+7:   FUNC GLOBAL DEFAULT UND printf@LIBC (2)
+8:   FUNC GLOBAL DEFAULT UND cmd_bml_erase_raw_partiti
+9:   FUNC GLOBAL DEFAULT UND strstr@LIBC (2)
+10:   FUNC GLOBAL DEFAULT UND cmd_bml_get_partition_dev
+11:   FUNC GLOBAL DEFAULT UND strcmp@LIBC (2)
+12:   FUNC GLOBAL DEFAULT UND cmd_bml_mount_partition
+13:   FUNC GLOBAL DEFAULT UND cmd_bml_restore_raw_parti
+14:   FUNC GLOBAL DEFAULT UND cmd_mmc_backup_raw_partit
+15:   FUNC GLOBAL DEFAULT UND cmd_mmc_erase_partition
+16:   FUNC GLOBAL DEFAULT UND cmd_mmc_erase_raw_partiti
+17:   FUNC GLOBAL DEFAULT UND cmd_mmc_get_partition_dev
+18:   FUNC GLOBAL DEFAULT UND cmd_mmc_mount_partition
+19:   FUNC GLOBAL DEFAULT UND cmd_mmc_restore_raw_parti
+20:   FUNC GLOBAL DEFAULT UND cmd_mtd_backup_raw_partit
+21:   FUNC GLOBAL DEFAULT UND cmd_mtd_erase_partition
+22:   FUNC GLOBAL DEFAULT UND cmd_mtd_erase_raw_partiti
+23:   FUNC GLOBAL DEFAULT UND cmd_mtd_get_partition_dev
+24:   FUNC GLOBAL DEFAULT UND cmd_mtd_mount_partition
+25:   FUNC GLOBAL DEFAULT UND cmd_mtd_restore_raw_parti
+26:   FUNC GLOBAL DEFAULT 12 device_flash_type
+27:   FUNC GLOBAL DEFAULT 12 erase_raw_partition
+28:   FUNC GLOBAL DEFAULT 12 restore_raw_partition
+29:   OBJECT GLOBAL DEFAULT 21 the_flash_type
+30:   NOTYPE GLOBAL DEFAULT ABS _end
+31:   NOTYPE GLOBAL DEFAULT ABS _edata
+32:   FUNC GLOBAL DEFAULT 12 backup_raw_partition
+33:   FUNC GLOBAL DEFAULT 12 get_default_filesystem
+34:   FUNC GLOBAL DEFAULT 12 get_partition_device
+35:   NOTYPE GLOBAL DEFAULT ABS __bss_start
+36:   FUNC GLOBAL DEFAULT 12 erase_partition
+37:   FUNC GLOBAL DEFAULT 12 get_flash_type
+38:   FUNC GLOBAL DEFAULT 12 mount_partition

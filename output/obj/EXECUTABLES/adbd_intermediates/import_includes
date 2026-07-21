@@ -1,0 +1,27 @@
+ 
+ 
+ 
+ -Iexternal/avb
+ -Isystem/core/base/include
+ -Isystem/core/qemu_pipe/include
+ -Ibootable/recovery/bootloader_message/include
+ -Isystem/core/fs_mgr/include -Isystem/core/logwrapper/include -Isystem/core/fs_mgr/include_fstab -Isystem/core/fs_mgr/include_fstab
+ -Isystem/extras/libfec/include -Isystem/core/libcrypto_utils/include
+ -Iexternal/fec
+ -Iexternal/selinux/libselinux/include -Iexternal/pcre/include -Isystem/core/libpackagelistparser/include
+ -Isystem/core/liblog/include
+ -Isystem/extras/ext4_utils/include
+ -Isystem/extras/squashfs_utils
+ -Isystem/core/libcutils/include
+ -Isystem/core/base/include
+ -Isystem/core/libcrypto_utils/include
+ -Iexternal/boringssl/src/include -Iexternal/boringssl/src/include
+-I external/minijail
+ -Iexternal/libcap/libcap/include
+-I external/mdnsresponder/mDNSShared
+ -Isystem/core/debuggerd/include -Isystem/core/debuggerd/include -Isystem/core/debuggerd/common/include -Ibionic/libc/async_safe/include -Isystem/core/debuggerd/libdebuggerd/include
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ 
+ 
+ 
+ 

@@ -1,0 +1,5 @@
+SHA1
+__bss_start
+__sfp_handle_exceptions
+_edata
+_end

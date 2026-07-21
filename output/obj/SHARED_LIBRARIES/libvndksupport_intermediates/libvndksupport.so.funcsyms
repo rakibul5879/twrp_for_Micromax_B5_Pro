@@ -1,0 +1,6 @@
+__atexit_handler_wrapper
+__on_dlclose
+android_load_sphal_library
+android_unload_sphal_library
+atexit
+pthread_atfork

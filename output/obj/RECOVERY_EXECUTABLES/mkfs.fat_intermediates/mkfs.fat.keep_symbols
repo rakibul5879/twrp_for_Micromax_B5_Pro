@@ -1,0 +1,17 @@
+_ZL7sprintfPcU17pass_object_size1PKcz
+__FINI_ARRAY__
+__INIT_ARRAY__
+__PREINIT_ARRAY__
+__atexit_handler_wrapper
+_start
+_start_main
+alarm_intr
+atexit
+dummy_boot_code
+dummy_boot_jump
+dummy_boot_jump_m68k
+fatal_error
+main
+mark_FAT_sector
+pthread_atfork
+usage

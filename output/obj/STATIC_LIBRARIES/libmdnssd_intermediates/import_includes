@@ -1,0 +1,7 @@
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ 
+ 
+ 
+ -Isystem/core/libcutils/include
+ -Isystem/core/liblog/include
+ 
